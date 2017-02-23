@@ -1127,10 +1127,7 @@ hr{
   box-shadow:0 6px 15px 0 rgba(0,0,0,0.3);
   border-radius:5px;
   min-height:70px;
-}
 
-.portal-input input:placeholder-shown{
-  border:5px solid red;
 }
 
 .form-download{
