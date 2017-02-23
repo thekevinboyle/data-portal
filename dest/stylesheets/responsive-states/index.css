@@ -1,0 +1,42 @@
+:root{
+
+}
+
+.sm-show, .md-show, .lg-show{
+  display:none !important
+}
+
+@media (min-width: 40em){
+  .sm-show{ display:block !important }
+}
+
+@media (min-width: 52em){
+  .md-show{ display:block !important }
+}
+
+@media (min-width: 64em){
+  .lg-show{ display:block !important }
+}
+
+@media (min-width: 40em){
+  .sm-hide{ display:none !important }
+}
+
+@media (min-width: 52em){
+  .md-hide{ display:none !important }
+}
+
+@media (min-width: 64em){
+  .lg-hide{ display:none !important }
+}
+
+.display-none{ display:none !important }
+
+.hide{
+  position:absolute !important;
+  height:1px;
+  width:1px;
+  overflow:hidden;
+  clip:rect(1px, 1px, 1px, 1px);
+}
+
