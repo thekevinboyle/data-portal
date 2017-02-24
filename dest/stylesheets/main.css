@@ -1127,6 +1127,16 @@ hr{
 
 }
 
+.icon-download{
+  background:url("../../img/icon-download.svg") no-repeat;
+  background-size:contain;
+  background-position:center center;
+  border:0;
+  display:block;
+  height:32px;
+  width:200px;
+}
+
 .form-download{
   background-color:#ECEFF1;
   box-shadow:0 1px 2px 0 #D9DEE2;
