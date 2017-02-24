@@ -1088,13 +1088,10 @@ hr{
 }
 
 .rad-logo-r{
-  background:url("../../img/radius-logo-r.png") no-repeat;
-  background-size:cover;
-  background-position:center center;
   border:0;
   display:block;
-  height:60px;
-  width:100px;
+  height:34px;
+  width:34px;
 }
 
 .text--shout{
@@ -1175,4 +1172,8 @@ hr{
 
 .form-right{
   margin-left:auto;
+}
+
+.bg-light{
+  background-color:rgba(248, 249, 250, 1.0);
 }
