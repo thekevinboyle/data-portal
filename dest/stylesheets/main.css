@@ -1172,3 +1172,7 @@ hr{
 .vw-100{
   min-width:100vw;
 }
+
+.form-right{
+  margin-left:auto;
+}
