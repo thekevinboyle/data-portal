@@ -1,4 +1,5 @@
-@import 'basscss';
+@import 'basecss/basscss';
+@import '_variables';
 @import 'gradient';
 @import 'shadow';
 
@@ -46,6 +47,20 @@
   border-radius: 6px;
   min-height: 70px;
   width: 100%;
+}
+
+.portal-search {
+  border: 1px solid #d9dee2;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
+  min-height: 73px;
+}
+
+input[type=text] {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.06rem;
+  line-height: 14px;
+  padding: 24px;
 }
 
 .portal-input {

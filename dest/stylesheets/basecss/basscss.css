@@ -82,13 +82,13 @@ th{ vertical-align:bottom }
 td{ vertical-align:top }
 
 body{
-  font-family:'aktiv-grotesk', Helvetica, sans-serif;
+  font-family:'Helvetica Neue', Helvetica, sans-serif;
   line-height:1.5;
   font-size:100%;
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family:'aktiv-grotesk', Helvetica, sans-serif;
+  font-family:'Helvetica Neue', Helvetica, sans-serif;
   font-weight:bold;
   line-height:1.25;
   margin-top:1em;
@@ -116,7 +116,7 @@ pre{
   overflow-x:scroll;
 }
 
-h1{ font-size:120px }
+h1{ font-size:2rem }
 
 h2{ font-size:1.5rem }
 
@@ -303,7 +303,7 @@ hr{
   opacity:.5;
 }
 
-.h1{ font-size:120px }
+.h1{ font-size:2rem }
 
 .h2{ font-size:1.5rem }
 
@@ -1029,178 +1029,3 @@ hr{
 .bg-purple{ background-color:#B10DC9 }
 
 .bg-maroon{ background-color:#85144B }
-
-:root{
-}
-
-.rad-gradient{
-  background:#DA22FF;
-  background:linear-gradient(to left, #DA22FF , #9733EE);
-}
-
-.rad-gradient--reef{
-  background:#2304FF;
-  background:-webkit-gradient(left top, left bottom, color-stop(0%, #2304ff), color-stop(44%, #08A9F1), color-stop(100%, #00d9e8));
-  background:linear-gradient(to bottom, #2304ff 0%, #08A9F1 44%, #00d9e8 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2304ff', endColorstr='#00d9e8', GradientType=0 );
-}
-
-.sidebar-gradient:before{
-  background:#2304FF;
-  background:-webkit-gradient(left top, left bottom, color-stop(0%, #2304ff), color-stop(44%, #08A9F1), color-stop(100%, #00d9e8));
-  background:linear-gradient(to bottom, #2304ff 0%, #08A9F1 44%, #00d9e8 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2304ff', endColorstr='#00d9e8', GradientType=0 );
-  background-size:cover;
-  content:'';
-  position:absolute;
-  left:0;
-  top:0;
-  height:100vh;
-  width:10px;
-}
-
-.shadow{
-  box-shadow:0px 0px 18px 4px rgba(0,0,0,0.20);
-}
-
-.table-shadow{
-  border:1px solid #D9DEE2;
-  border-radius:5px;
-  box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
-}
-
-.shadow-subtle{
-  box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
-}
-
-.shadow-b{
-  content:"";
-  box-shadow:0px 8px 6px -6px rgba(0,0,0,0.20);
-  border:0;
-}
-
-.rad-logo{
-  background:url("../../img/radius-logo-white.svg") no-repeat;
-  background-size:contain;
-  background-position:center center;
-  border:0;
-  display:block;
-  height:32px;
-  width:200px;
-  z-index:999;
-}
-
-.rad-logo-r{
-  border:0;
-  display:block;
-  height:34px;
-  width:34px;
-}
-
-.text--shout{
-  font-size:48px;
-  font-weight:400;
-  letter-spacing:.2rem;
-  line-height:.9;
-}
-
-.subtitle{
-  font-size:16px;
-  letter-spacing:-0.4;
-}
-
-.portal-sidebar{
-  min-width:300px;
-  z-index:2;
-}
-
-.portal-token{
-  border-radius:6px;
-  min-height:70px;
-  width:100%;
-}
-
-.portal-search{
-  border:1px solid #d9dee2;
-  box-shadow:0 3px 10px 0 rgba(0,0,0,0.1);
-  min-height:73px;
-}
-
-input[type=text]{
-  font-size:18px;
-  font-weight:300;
-  letter-spacing:0.06rem;
-  line-height:14px;
-  padding:24px;
-}
-
-.portal-input{
-  width:466px;
-  height:70px;
-  background-color:#FFFFFF;
-  box-shadow:0 6px 15px 0 rgba(0,0,0,0.3);
-  border-radius:5px;
-  min-height:70px;
-
-}
-
-.icon-download{
-  background:url("../../img/icon-download.svg") no-repeat;
-  background-size:contain;
-  background-position:center center;
-  border:0;
-  display:block;
-  height:32px;
-  width:200px;
-}
-
-.form-download{
-  background-color:#ECEFF1;
-  box-shadow:0 1px 2px 0 #D9DEE2;
-  border:1px solid #D9DEE2;
-  border-radius:5px;
-}
-
-.cta-portal{
-  width:153px;
-  height:50px;
-  background:linear-gradient(90deg, #00D4FC 0%, #2304FF 100%);
-  border-radius:5px;
-}
-
-.flourish{
-  border:1px;
-  border-bottom-style:solid;
-  border-bottom-width:2px;
-  border-bottom-color:black;
-  width:32px;
-}
-
-.bb-subtle{
-  border:1px;
-  border-bottom-style:solid;
-  border-bottom-width:2px;
-  border-bottom-color:black;
-  opacity:0.1;
-  width:100%;
-}
-
-.border-subtle{
-  border:1px solid #d9d9d8;
-}
-
-.vh-100{
-  min-height:100vh;
-}
-
-.vw-100{
-  min-width:100vw;
-}
-
-.form-right{
-  margin-left:auto;
-}
-
-.bg-light{
-  background-color:rgba(248, 249, 250, 1.0);
-}
