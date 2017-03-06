@@ -2,11 +2,38 @@
 
 @import 'basscss-defaults';
 
-.uber { font-size: var(--uber) }
-.h1 { font-size: var(--h1) }
-.h2 { font-size: var(--h2) }
-.h3 { font-size: var(--h3) }
-.h4 { font-size: var(--h4) }
-.h5 { font-size: var(--h5) }
-.h6 { font-size: var(--h6) }
+.uber {
+  font-size: var(--uber);
+  letter-spacing: var(--uber-letter-spacing);
+}
+
+.h1 {
+  font-size: var(--h1);
+  letter-spacing: var(--h1-letter-spacing);
+}
+
+.h2 {
+  font-size: var(--h2);
+  letter-spacing: var(--h2-letter-spacing);
+}
+
+.h3 {
+  font-size: var(--h3);
+  letter-spacing: var(--h3-letter-spacing);
+}
+
+.h4 {
+  font-size: var(--h4);
+  letter-spacing: var(--h4-letter-spacing);
+}
+
+.h5 {
+  font-size: var(--h5);
+  letter-spacing: var(--h5-letter-spacing);
+}
+
+.h6 {
+  font-size: var(--h6);
+  /* letter-spacing: var(--h6-letter-spacing); */
+}
 

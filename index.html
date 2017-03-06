@@ -11,36 +11,47 @@
   <!-- <link rel="stylesheet" href="css/basscss.css"> -->
   <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
   <link href="dest/stylesheets/main.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
-<body class="bg-gray" >
+<body class="bg-white">
 
-  <div class="flex flex-center pt4 pb4">
+  <div class="flex flex-center bg-black shadow-b gradient-lighter p2">
     <div class="mx-auto rad-logo">
     </div>
   </div>
 
-  <div class="flex flex-center p4">
+</div>
 
-    <header class="container flex mx-auto center white ">
-      <div class="">
-        <h1 class="m0 mb2 text--shout">Download Reliable Data</h1>
-        <p class="white mb4">Download sample sets and validate them</p>
+<div class="clearfix p4">
+  <div class="p2 rounded shadow-subtle bg-gray col-10 mx-auto">
 
-        <label for="search-input" class="hide">Search</label>
-        <input
-        type="search"
-        id="search-input"
-        class="m0 field rounded  portal-input"
-        placeholder="Enter Token to Gain Access">
+    <input id="toggle" type="checkbox" unchecked>
+    <label for="toggle" class="">
+      <ul class="m0">
+        <li>Western Union</li>
+        <li>Jenny Da Spice</li>
+        <li>Securities, Commodity Contracts</li>
+        <li>10000010</li>
+      </ul>
 
-      </header>
+    </label>
+    <div id="expand">
+      <section class="">
 
+        <ul>
+        <li>Western Union</li>
+        <li>Jenny Da Spice</li>
+        <li>Securities, Commodity Contracts</li>
+        <li>10000010</li>
+      </ul>
+      </section>
     </div>
   </div>
 </div>
 
 
+<script src="js/Jexpand.js"></script>
 <script src="js/rellax.js"></script>
 <script>
   // Accepts any class name
