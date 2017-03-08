@@ -11,6 +11,7 @@
   --font-family: 'aktiv-grotesk', Helvetica, sans-serif;
   --line-height: 1.5;
   --heading-font-family: var(--font-family);
+  --base-font-weight: 400;
   --heading-font-weight: 500;
   --heading-line-height: 1.25;
   --monospace-font-family: 'Source Code Pro', Consolas, monospace;
@@ -20,6 +21,12 @@
   --h4: 30px;
   --h5: 16px;
   --h6: 16px;
+  --h1-font-weight: 500;
+  --h2-font-weight: 500;
+  --h3-font-weight: 500;
+  --h4-font-weight: 500;
+  --h5-font-weight: 500;
+  --h6-font-weight: 500;
   --bold-font-weight: bold;
   --space-1: .5rem;
   --space-2: 1rem;

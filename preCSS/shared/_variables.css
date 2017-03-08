@@ -15,10 +15,13 @@
   --h4: 18px;
   --h5: 16px;
   --h6: 14px;
-  --subtitle: 20px;
-  --paragraph: 12px;
-  --paragraph-sm: 14px;
+  --subtitle: 18px;
+  --p: 12px;
+  --p-sm: 14px;
+  --p-stats: 15px;
   --taxonomy: 16px;
+  --alt-goth: 'alternate-gothic-no-2-d', sans-serif;
+  --alt-goth-font-size: 72px;
 
   /* Typography Spacing and Height */
   --heading-line-height: 1.25;
@@ -29,11 +32,10 @@
   --h3-line-height: 25px;
   --h4-line-height: 20px;
   --h5-line-height: 16px;
-  --subtitle-line-height: 20px;
-  --paragraph-line-height: 16px;
-  --paragraph-sm-line-height: 16px;
+  --subtitle-line-height: 24px;
+  --p-line-height: 16px;
+  --p-sm-line-height: 16px;
   --taxonomy-line-height: 16px;
-
 
   --uber-letter-spacing: -1px;
   --h1-letter-spacing: -0.8px;
@@ -42,7 +44,16 @@
   --h4-letter-spacing: -0.2px;
   /* --h5-letter-spacing: -1; */
   --caps-letter-spacing: .2px;
-  --subtitle-letter-spacing: -0.4px;
+  --subtitle-letter-spacing: normal;
+
+  --p-font-weight: 300;
+  --h1-font-weight: 400;
+  --h2-font-weight: 400;
+  --h3-font-weight: 400;
+  --h4-font-weight: 400;
+  --h5-font-weight: 400;
+  --h6-font-weight: 300;
+  --subtitle-font-weight: 300;
 
   /* Colors Core for backgrounds and type */
   --blue: #2b84c6;

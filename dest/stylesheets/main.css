@@ -1040,9 +1040,10 @@ hr{
 }
 
 .subtitle{
-  font-size:20px;
-  letter-spacing:-0.4px;
-  line-height:20px;
+  font-size:18px;
+  font-weight:300;
+  letter-spacing:normal;
+  line-height:24px;
 }
 
 .taxonomy{
@@ -1051,34 +1052,60 @@ hr{
   line-height:16px;
 }
 
+p{
+  font-size:12px;
+  font-weight:300;
+  letter-spacing:var(--p-letter-spacing);
+  line-height:16px;
+}
+
 h1{
   font-size:42px;
+  font-weight:400;
   letter-spacing:-0.8px;
   line-height:39px;
 }
 
 h2{
   font-size:24px;
+  font-weight:400;
   letter-spacing:-0.6px;
   line-height:31px;
 }
 
 h3{
   font-size:21px;
+  font-weight:400;
   letter-spacing:-0.4px;
   line-height:25px;
 }
 
 h4{
   font-size:18px;
+  font-weight:400;
   letter-spacing:-0.2px;
   line-height:20px;
 }
 
 h5{
   font-size:16px;
+  font-weight:400;
   letter-spacing:var(--h5-letter-spacing);
   line-height:16px;
+}
+
+h6{
+  font-size:14px;
+  font-weight:300;
+}
+
+.p-stats{
+  font-size:15px;
+}
+
+.alt-goth{
+  font-family:'alternate-gothic-no-2-d', sans-serif;
+  font-size:72px;
 }
 
 .vh-100{
@@ -1089,6 +1116,10 @@ h5{
   min-width:100vw;
 }
 
+.muted{
+  color:#C4CACE;
+}
+
 .portal-sidebar{
   min-width:300px;
   z-index:2;
@@ -1097,7 +1128,7 @@ h5{
 .portal-token{
   border-radius:6px;
   min-height:70px;
-  width:100%;
+  width:466px;
 }
 
 .portal-search{
@@ -1163,7 +1194,7 @@ padding-left:30px;
 
 .portal-stats{
   margin:0 auto;
-  max-width:600px;
+  max-width:970px;
   min-height:400px;
   position:relative;
   top:-40px;

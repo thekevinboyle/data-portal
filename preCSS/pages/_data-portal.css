@@ -7,7 +7,7 @@
 .portal-token {
   border-radius: 6px;
   min-height: 70px;
-  width: 100%;
+  width: 466px;
 }
 
 .portal-search {
@@ -55,7 +55,7 @@ padding-left: 30px;
 
 .portal-stats {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 970px;
   min-height: 400px;
   position: relative;
   top: -40px;
