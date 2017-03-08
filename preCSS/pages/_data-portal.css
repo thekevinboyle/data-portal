@@ -11,11 +11,22 @@
 }
 
 .portal-search {
-  border: 1px solid #d9dee2;
-  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
+  background: transparent url("../../img/icon-download.svg") no-repeat left center;
+  background-size: 30px auto;
+  content: '';
+  border: 0px solid #d9dee2;
+  /* box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1); */
   min-height: 73px;
 }
 
+.portal-search::placeholder {
+font-size: 24px;
+font-weight: 200;
+padding-left: 30px;
+}
+
+.portal-search {
+}
 .portal-input {
   width: 466px;
   height: 70px;
@@ -42,6 +53,13 @@
   border-radius: 5px;
 }
 
+.portal-stats {
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 400px;
+  position: relative;
+  top: -40px;
+}
 
 /* ------------------------- */
 /* Decos */

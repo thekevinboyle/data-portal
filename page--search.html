@@ -21,104 +21,90 @@
         <!-- Data Table -->
         <!-- Future Home of Accordion Row -->
 
-        <div class="">
-          <form class="flex flex-auto mb3">
+        <div class="mx4">
+          <form class="flex flex-auto mb3 border-bottom">
             <label for="search" class="hide">Search</label>
-            <input id="search" type="text" placeholder="Search" class="field flex-auto portal-search shadow h1 rounded">
+            <input id="search" type="text" placeholder="Search" class="field flex-auto portal-search  rounded">
           </form>
 
           <div class="px2 ">
             <p class="muted">Showing 10 of Samples of 8,550 results multiple</p>
           </div>
 
+
           <div class="clearfix border-bottom mb2 pb2 px2">
-            <div class="sm-col sm-col-3"><div class="">Company</div></div>
-            <div class="sm-col sm-col-3"><div class="">Contact</div></div>
-            <div class="sm-col sm-col-3"><div class="">NAICS Description</div></div>
-            <div class="sm-col sm-col-3"><div class="">NAICS Code</div></div>
+
+            <ul>
+              <li class="sm-col sm-col-3">Company</li>
+              <li class="sm-col sm-col-3">Company</li>
+              <li class="sm-col sm-col-3">Company</li>
+              <li class="sm-col sm-col-3">Company</li>
+            </ul>
           </div>
 
-          <div class="clearfix black table-shadow p2 mb2 rounded bg-white">
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Western Union</p>
-              <p class="muted m0">Address</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Jenny Spicer</p>
-              <p class="muted m0">CTO</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Finance and Insurance</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">10000000001</p>
-            </div>
-          </div>
+          <div class="clearfix black p2 mb2 table-shadow bg-white rounded">
+            <div class="col rounded">
 
-          <div class="clearfix black table-shadow p2 mb2 rounded bg-white">
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Western Union</p>
-              <p class="muted m0">Address</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Jenny Spicer</p>
-              <p class="muted m0">CTO</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Finance and Insurance</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">10000000001</p>
+              <input class="hide" id="toggle" type="checkbox" unchecked>
+              <label for="toggle" class="">
+                <ul class="m0">
+                  <li>Western Union</li>
+                  <li>Jenny Da Spice</li>
+                  <li>Securities, Commodity Contracts</li>
+                  <li>10000010</li>
+                </ul>
+              </label>
+
+              <!-- The Collapsed Row -->
+              <div id="expand">
+                <section class="">
+                  <ul>
+                    <li>Western Union</li>
+                    <li>Jenny Da Spice</li>
+                    <li>Securities, Commodity Contracts</li>
+                    <li>10000010</li>
+                  </ul>
+                </section>
+              </div>
+
+              <!-- End The Collapsed Row -->
             </div>
           </div>
 
-          <div class="clearfix black table-shadow p2 mb2 rounded bg-white">
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Western Union</p>
-              <p class="muted m0">Address</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Jenny Spicer</p>
-              <p class="muted m0">CTO</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Finance and Insurance</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">10000000001</p>
-            </div>
-          </div>
-
-          <div class="clearfix black table-shadow p2 mb2 rounded bg-white">
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Western Union</p>
-              <p class="muted m0">Address</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Jenny Spicer</p>
-              <p class="muted m0">CTO</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">Finance and Insurance</p>
-            </div>
-            <div class="sm-col sm-col-3">
-              <p class="regular m0">10000000001</p>
-            </div>
-          </div>
+          <!-- <div class="clearfix black table&#45;shadow p2 mb2 rounded bg&#45;white"> -->
+            <!--   <div class="sm&#45;col sm&#45;col&#45;3"> -->
+              <!--     <p class="regular m0">Western Union</p> -->
+              <!--     <p class="muted m0">Address</p> -->
+              <!--   </div> -->
+            <!--   <div class="sm&#45;col sm&#45;col&#45;3"> -->
+              <!--     <p class="regular m0">Jenny Spicer</p> -->
+              <!--     <p class="muted m0">CTO</p> -->
+              <!--   </div> -->
+            <!--   <div class="sm&#45;col sm&#45;col&#45;3"> -->
+              <!--     <p class="regular m0">Finance and Insurance</p> -->
+              <!--   </div> -->
+            <!--   <div class="sm&#45;col sm&#45;col&#45;3"> -->
+              <!--     <p class="regular m0">10000000001</p> -->
+              <!--   </div> -->
+            <!-- </div> -->
 
         </div>
 
         <!-- Download Records Section -->
 
 
-        <div class="clearfix mb2 form-download rounded p2">
-<form>
-  <label class="hide" for="search">Enter Amount</label>
+        <div class="clearfix mb2 form-download rounded p2 mx4">
+          <form class="flex flex-center">
+            <label class="hide" for="search">Enter Amount</label>
 
-  <button class="right btn btn-primary">Download</button>
-  <input class="right white field mr2" id="search" type="text" placeholder=" Enter Amount" >
-  <p class="left">500 Downloads remaining</p>
-</form>
+            <div>
+              <p class="flex-auto">500 Downloads remaining</p>
+            </div>
+            <div class="flex-auto">
+              <button class="right btn btn-primary">Download</button>
+              <input class="right white field mr2" id="search" type="text" placeholder=" Enter Amount" >
+            </div>
+          </form>
         </div>
       </main>
 
@@ -199,6 +185,7 @@
 
     </div>
 
+    <script src="js/Jexpand.js"></script>
     <script src="js/rellax.js"></script>
     <script>
       // Accepts any class name

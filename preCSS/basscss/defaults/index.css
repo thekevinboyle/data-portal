@@ -3,9 +3,9 @@
 /* @import "colors.css/myth/variables"; */
 @import 'colors.css/src/_variables';
 
-@custom-media --breakpoint-sm (min-width: 40em);
-@custom-media --breakpoint-md (min-width: 52em);
-@custom-media --breakpoint-lg (min-width: 64em);
+@custom-media --breakpoint-sm (min-width: 666px);
+@custom-media --breakpoint-md (min-width: 666px);
+@custom-media --breakpoint-lg (min-width: 666px);
 
 :root {
   --font-family: 'aktiv-grotesk', Helvetica, sans-serif;
@@ -14,7 +14,6 @@
   --heading-font-weight: 500;
   --heading-line-height: 1.25;
   --monospace-font-family: 'Source Code Pro', Consolas, monospace;
-  --uber: 62px;
   --h1: 60px;
   --h2: 37.2px;
   --h3: 30px;

@@ -1,10 +1,12 @@
-@import 'basecss/basscss';
-@import '_variables';
-@import '_helpers';
-@import '_data-portal';
-@import '_ctas';
-@import 'gradient';
-@import 'shadow';
+@import 'basscss/basscss';
+
+@import 'shared/_variables';
+@import 'shared/_typography';
+@import 'shared/_helpers';
+@import 'pages/_data-portal';
+@import 'shared/_ctas';
+@import 'shared/_gradient';
+@import 'shared/_shadow';
 
 html {
   box-sizing: border-box;
@@ -36,82 +38,6 @@ html {
 }
 
 /* ------------------------- */
-
-/* Typography  */
-.uber {
-  font-size: var(--uber);
-  letter-spacing: var(--uber-letter-spacing);
-  line-height: var(--uber-line-height);
-}
-
-.subtitle {
-  font-size: var(--subtitle);
-  letter-spacing: var(--subtitle-letter-spacing);
-  line-height: var(--subtitle-line-height);
-}
-
-.taxonomy {
-  font-size: var(--taxonomy);
-  letter-spacing: var(--taxonomy-letter-spacing);
-  line-height: var(--taxonomy-line-height);
-}
-
-h1 {
-  font-size: var(--h1);
-  letter-spacing: var(--h1-letter-spacing);
-  line-height: var(--h1-line-height);
-}
-
-h2 {
-  font-size: var(--h2);
-  letter-spacing: var(--h2-letter-spacing);
-  line-height: var(--h2-line-height);
-}
-
-h3 {
-  font-size: var(--h3);
-  letter-spacing: var(--h3-letter-spacing);
-  line-height: var(--h3-line-height);
-}
-
-h4 {
-  font-size: var(--h4);
-  letter-spacing: var(--h4-letter-spacing);
-  line-height: var(--h4-line-height);
-}
-
-h5 {
-  font-size: var(--h5);
-  letter-spacing: var(--h5-letter-spacing);
-  line-height: var(--h5-line-height);
-}
-/* ------------------------- */
-
-.portal-sidebar {
-  min-width: 300px;
-  z-index: 2;
-}
-
-.portal-token {
-  border-radius: 6px;
-  min-height: 70px;
-  width: 100%;
-}
-
-.portal-search {
-  border: 1px solid #d9dee2;
-  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
-  min-height: 73px;
-}
-
-.portal-input {
-  width: 466px;
-  height: 70px;
-  background-color: #FFFFFF;
-  box-shadow: 0 6px 15px 0 rgba(0,0,0,0.3);
-  border-radius: 5px;
-  min-height: 70px;
-}
 
 .icon-download {
   background: url("../../img/icon-download.svg") no-repeat;
@@ -168,10 +94,6 @@ h5 {
 
 /* ------------------------- */
 
-input[type=text] {
-  font-size: inherit ;
-  padding: 18px;
-}
 
 /* ------------------------- */
 
@@ -180,34 +102,15 @@ ul li {
    display: inline;
 }
 
-input {
-  display: none;
-  visibility: hidden;
-}
-
-label {
-  display: block;
-  color: #262626;
-}
-
-label:hover {
-  color: #000;
-}
-
-li {
-  display: inline;
-  list-style-type: none;
-}
-
-li::after { content: ""; }
-
-li:last-child::before { content: ""; }
-
-label li:last-child::after {
-  float: right;
-  content: " >";
-  margin-right: 20px;
-}
+/* li::after { content: ""; } */
+/*  */
+/* li:last-child::before { content: ""; } */
+/*  */
+/* label li:last-child::after { */
+/*   float: right; */
+/*   content: " >"; */
+/*   margin-left: 20px; */
+/* } */
 
 #expand {
   height: 0px;
@@ -223,7 +126,7 @@ label li:last-child::after {
 }
 
 #toggle:checked ~ label li:last-child::after {
-  content: "v";
+  /* content: "v"; */
 }
 
 /* ------------------------- */
