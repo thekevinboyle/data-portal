@@ -1092,14 +1092,6 @@ hr{
   width:32px;
 }
 
-.bb-subtle{
-  border:1px;
-  border-bottom-style:solid;
-  border-bottom-width:2px;
-  border-bottom-color:black;
-  opacity:0.1;
-  width:100%;
-}
 
 .border-subtle{
   border:1px solid #d9d9d8;

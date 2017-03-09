@@ -1126,6 +1126,13 @@ h6{
   color:#C4CACE;
 }
 
+.bb-subtle{
+  border:1px;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  border-bottom-color:#D9DEE2;
+}
+
 .portal-sidebar{
   min-width:300px;
   z-index:2;
@@ -1138,16 +1145,15 @@ h6{
 }
 
 .portal-search{
-
-  font-family:'aktiv-grotesk-thin', sans-serif;
   background:transparent url("../../img/icon-download.svg") no-repeat 16px center;
   background-size:30px auto;
-  content:'';
-  border:0px solid #d9dee2;
-  min-height:73px;
-  height:73px;
-  box-shadow:0 3px 8px 0 rgba(0,0,0,0.1);
   border-radius:5px;
+  border:0px solid #d9dee2;
+  box-shadow:0 3px 8px 0 rgba(0,0,0,0.1);
+  content:'';
+  font-family:'aktiv-grotesk-thin', sans-serif;
+  height:73px;
+  min-height:73px;
 }
 
 .portal-search::-webkit-input-placeholder{
@@ -1224,15 +1230,6 @@ h6{
   width:32px;
 }
 
-.bb-subtle{
-  border:1px;
-  border-bottom-style:solid;
-  border-bottom-width:2px;
-  border-bottom-color:black;
-  opacity:0.1;
-  width:100%;
-}
-
 .border-subtle{
   border:1px solid #d9d9d8;
 }
@@ -1297,6 +1294,43 @@ input[type=text]{
 .gradient-intro{
   background:linear-gradient(90deg, #003247 0%, #04054C 100%);
   opacity:0.97;
+}
+
+.tooltip{
+    position:relative;
+    display:inline-block;
+}
+
+.tooltip .tooltiptext{
+  font-family:inherit;
+  font-size:12px;
+  visibility:hidden;
+  width:120px;
+  background-color:#28292a;
+  box-shadow:0 3px 8px 0 rgba(0,0,0,0.1);
+  color:#fff;
+  text-align:left;
+  padding:10px;
+  border-radius:6px;
+  width:191px;
+  bottom:100%;
+  left:0;
+  position:absolute;
+  z-index:1;
+
+}
+
+.tooltip:hover .tooltiptext{
+  visibility:visible;
+}
+
+.circle{
+  content:'';
+  color:#fff;
+  padding:16px;
+  height:100%;
+  text-align:center;
+  border-radius:50%;
 }
 
 .cta-inset{
@@ -1443,15 +1477,6 @@ html{
   border:transparent;
   height:2px;
   width:25px;
-}
-
-.bb-subtle{
-  border:1px;
-  border-bottom-style:solid;
-  border-bottom-width:2px;
-  border-bottom-color:black;
-  opacity:0.1;
-  width:100%;
 }
 
 .border-subtle{
