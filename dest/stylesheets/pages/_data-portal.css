@@ -11,38 +11,48 @@
 }
 
 .portal-search{
-  background:transparent url("../../img/icon-download.svg") no-repeat left center;
+
+  font-family:var(--aktiv-thin);
+  background:transparent url("../../img/icon-download.svg") no-repeat 16px center;
   background-size:30px auto;
   content:'';
   border:0px solid #d9dee2;
   min-height:73px;
+  height:73px;
+  box-shadow:0 3px 8px 0 rgba(0,0,0,0.1);
+  border-radius:var(--border-radius);
 }
 
 .portal-search::-webkit-input-placeholder{
-font-size:24px;
-font-weight:200;
-padding-left:30px;
+  font-family:var(--aktiv-thin);
+  font-weight:200;
+  font-size:18px;
+  padding-left:40px;
 }
 
 .portal-search::-moz-placeholder{
-font-size:24px;
-font-weight:200;
-padding-left:30px;
+  font-family:var(--aktiv-thin);
+  font-weight:200;
+  font-size:18px;
+  padding-left:40px;
 }
 
 .portal-search:-ms-input-placeholder{
-font-size:24px;
-font-weight:200;
-padding-left:30px;
+  font-family:var(--aktiv-thin);
+  font-weight:200;
+  font-size:18px;
+  padding-left:40px;
 }
 
 .portal-search::placeholder{
-font-size:24px;
-font-weight:200;
-padding-left:30px;
+  font-family:var(--aktiv-thin);
+  font-weight:200;
+  font-size:18px;
+  padding-left:40px;
 }
 
 .portal-search{
+
 }
 
 .portal-input{
@@ -129,7 +139,7 @@ input[type=text]{
 }
 
 .sticky-bg{
-position:fixed;
+  position:fixed;
   top:-50%;
   left:-50%;
   width:200%;
