@@ -1,0 +1,23 @@
+
+:root {
+  /* Colors Core for backgrounds and type */
+  --blue: #2b84c6;
+  --blue-deep: #034677;
+  --blue-50: #97c4e3;
+  --gray-medium: #a6a6a6;
+  --gray-light: #d9d9d8;
+  --gray-lightest: #f2f2f2;
+  --slate: #59768c;
+  --slate-dark: #234055;
+  --slate-light: #9ab2c5;
+
+  /* Colors for CTAs, buttons, and error states on forms */
+  --blue-vibe: #38ace2;
+  --blue-deep: #1280ba;
+  --blue-portal: #007BFF;
+  --green: #37b449;
+  --green-deep: #058539;
+  --orange-red: #f05b24;
+  --orange-red-muted: #f69d83;
+
+}

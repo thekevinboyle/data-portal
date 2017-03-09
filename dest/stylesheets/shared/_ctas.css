@@ -11,5 +11,8 @@ box-shadow:inset 0px -3px 0px;
 }
 
 .cta-portal{
-  background:linear-gradient(90deg, #00D4FC 0%, #2304FF 100%);
+  border:0;
+  height:50px;
+  background:linear-gradient(90deg, #0E7FFC 0%, #1B2DFF 100%);
+  border-radius:5px;
 }

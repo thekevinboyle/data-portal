@@ -25,3 +25,7 @@
   box-shadow: 0px 8px 6px -6px rgba(0,0,0,0.20);
   border: 0;
 }
+
+.shadow-sidebar {
+box-shadow: 4px 0 10px 0 rgba(0,0,0,0.1);
+}

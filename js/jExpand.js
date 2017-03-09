@@ -1,14 +1,9 @@
-(function($){
-    $.fn.jExpand = function(){
-        var element = this;
-
-        $(element).find("tr:odd").addClass("odd");
-        $(element).find("tr:not(.odd)").hide();
-        $(element).find("tr:first-child").show();
-
-        $(element).find("tr.odd").click(function() {
-            $(this).next("tr").toggle();
-        });
-        
-    }    
-})(jQuery); 
+$(function() {
+	$('tr.parent')
+		.css("cursor","pointer")
+		.attr("title","Click to expand/collapse")
+		.click(function(){
+			$(this).siblings('.child-'+this.id).toggle();
+		});
+	$('tr[@class^=child-]').hide().children('td');
+});

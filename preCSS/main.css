@@ -6,6 +6,7 @@
 @import 'pages/_data-portal';
 @import 'shared/_ctas';
 @import 'shared/_gradient';
+@import 'shared/_colors';
 @import 'shared/_shadow';
 
 html {
@@ -66,11 +67,10 @@ html {
 /* ------------------------- */
 /* Decos */
 .flourish {
-  border: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: black;
-  width: 32px;
+  background-color: #303B3E;
+  border: transparent;
+  height: 2px;
+  width: 25px;
 }
 
 .bb-subtle {
@@ -99,7 +99,7 @@ html {
 
 /* Expandable / Collapsible Rows */
 ul li {
-   display: inline;
+  display: inline;
 }
 
 /* li::after { content: ""; } */

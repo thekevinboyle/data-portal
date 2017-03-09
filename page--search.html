@@ -31,8 +31,7 @@
             <p class="muted">Showing 10 of Samples of 8,550 results multiple</p>
           </div>
 
-
-          <div class="clearfix border-bottom mb2 pb2 px2">
+          <div class="clearfix border-bottom mb2 pb2 p0">
 
             <ul>
               <li class="sm-col sm-col-3">Company</li>
@@ -41,6 +40,37 @@
               <li class="sm-col sm-col-3">Company</li>
             </ul>
           </div>
+
+          <table id="detail_table" class="detail rounded table-shadow bg-white p2 mb2">
+            <colgroup>
+              <col class="sm-col sm-col-3">
+              <col class="sm-col sm-col-3">
+              <col class="sm-col sm-col-3">
+              <col class="sm-col sm-col-3">
+            </colgroup>
+            <thead>
+            </thead>
+
+            <tbody>
+              <tr class="parent" id="row123" title="" style="cursor: pointer;">
+                <td class=" sm-col sm-col-3">Michael Jordan</td>
+                <td class=" sm-col sm-col-3">Michael Jordan</td>
+                <td class=" sm-col sm-col-3">Michael Jordan</td>
+                <td class=" sm-col sm-col-3">Michael Jordan                <span class="caret right"></span>
+</td>
+
+              </tr>
+
+              <tr class="child-row123" style="display: none;">
+                <td class=" sm-col sm-col-3">Michael Jordan</td>
+                <td class=" sm-col sm-col-3">Michael Jordan</td>
+                <td class=" sm-col sm-col-3">Michael Jordan</td>
+                <td class=" sm-col sm-col-3">Michael Jordan</td>
+              </tr>
+
+            </tbody>
+          </table>
+
 
           <div class="clearfix black p2 mb2 table-shadow bg-white rounded">
             <div class="col rounded">
@@ -101,7 +131,7 @@
               <p class="flex-auto">500 Downloads remaining</p>
             </div>
             <div class="flex-auto">
-              <button class="right btn btn-primary">Download</button>
+              <button class="right btn btn-primary cta-portal">Download</button>
               <input class="right white field mr2" id="search" type="text" placeholder=" Enter Amount" >
             </div>
           </form>
@@ -109,18 +139,18 @@
       </main>
 
       <!-- Side bar -->
-      <nav class="flex-first flex flex-column shadow portal-sidebar bg-white black">
+      <nav class="flex-first flex flex-column shadow-sidebar portal-sidebar bg-white black">
         <div class="sidebar-gradient"></div>
 
         <div class="col-2">
           <figure class="m0 p0">
-            <img src="img/rad-logo-r-gradient.svg" class="xrad-logo-r p2 mt1 ml2" alt="">
+            <img src="img/rad-logo-r-gradient.svg" class="rad-logo-r m3" alt="">
           </figure>
         </div>
         <div class="flex-auto">
-          <div class="py3 px3">
-            <p class="mb0">Welcome,</p>
-            <p class="bold">Capital One</p>
+          <div class="mb3 px3">
+            <h4 class="m0 p0">Welcome,</h4>
+            <h4 class="mt0 mb2 p0 bold">Capital One</h4>
             <div class="flourish"></div>
           </div>
 
@@ -184,7 +214,7 @@
 
 
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="js/Jexpand.js"></script>
     <script src="js/rellax.js"></script>
     <script>

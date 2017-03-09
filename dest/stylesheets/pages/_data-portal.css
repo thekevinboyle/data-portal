@@ -140,3 +140,19 @@ position:fixed;
 .sticky-bg--col{
   color:white;
 }
+
+.caret{
+  position:relative;
+  cursor:pointer;
+}
+
+.caret:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  margin-left:12px;
+  border-top:11px solid transparent;
+  border-bottom:11px solid transparent;
+  border-left:11px solid black;
+}
