@@ -156,3 +156,8 @@ position:fixed;
   border-bottom:11px solid transparent;
   border-left:11px solid black;
 }
+
+.gradient-intro{
+  background:linear-gradient(90deg, #003247 0%, #04054C 100%);
+  opacity:0.97;
+}
