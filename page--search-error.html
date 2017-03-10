@@ -1,139 +1,138 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Radius Data Portal</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <script src="https://use.typekit.net/npl1anw.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <!-- <link rel="stylesheet" href="css/basscss.css"> -->
-  <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-  <link href="dest/stylesheets/main.css" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Radius Data Portal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://use.typekit.net/npl1anw.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- <link rel="stylesheet" href="css/basscss.css"> -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link href="dest/stylesheets/main.css" rel="stylesheet">
+  </head>
 
-<body class="" >
-  <div class="flex flex-column vh-100 bg-light">
-    <div class="flex-auto sm-flex">
-      <main class="flex-auto px3 py3">
+  <body class="gray-dark" >
+    <div class="flex flex-column vh-100 bg-light">
+      <div class="flex-auto sm-flex">
+        <main class="flex-auto px3 py3">
 
-        <!-- Data Table -->
-        <!-- Future Home of Accordion Row -->
+          <!-- Data Table -->
+          <!-- Future Home of Accordion Row -->
 
-        <div class="mx4">
-          <form class="flex flex-auto mb4">
-            <label for="search" class="hide">Search</label>
-            <input id="search" type="text" placeholder="Search for an industry (like finance, banking, or real estate)" class="field flex-auto portal-search  rounded">
-          </form>
-<div class="clearfix mb2 pb2 p0 mx-auto bb-subtle">
+          <div class="mx4">
+            <form class="flex flex-auto mb4">
+              <label for="search" class="hide">Search</label>
+              <input id="search" type="text" placeholder="Search for an industry (like finance, banking, or real estate)" class="field flex-auto portal-search  rounded">
+            </form>
+            <div class="clearfix mb2 pb2 p0 mx-auto bb-subtle">
 
-            <ul>
-              <li class="sm-col sm-col-3">Company</li>
-              <li class="sm-col sm-col-3">Contact</li>
-              <li class="sm-col sm-col-3">NAICS Description</li>
-              <li class="sm-col sm-col-3">NAICS Code</li>
-            </ul>
-          </div>
-
-          <header class="center px3 py4  gray bg-cover bg-center">
-            <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg"
-            width="96" height="96"
-            class="mb3" />
-            <p class="h4 aktiv-thin">Try searching for an industry, we have some data you’re going to want to see.</p>
-          </header>
-
-        </div>
-
-
-
-      </main>
-      <!-- Side bar -->
-      <nav class="flex-first flex flex-column shadow-sidebar portal-sidebar bg-white black">
-        <div class="sidebar-gradient"></div>
-
-        <div class="col-2">
-          <figure class="m0 p0">
-            <img src="img/rad-logo-r-gradient.svg" class="rad-logo-r m3" alt="">
-          </figure>
-        </div>
-        <div class="flex-auto">
-          <div class="mb3 px3">
-            <h4 class="m0 p0">Welcome,</h4>
-            <h4 class="mt0 mb2 p0 bold">Capital One</h4>
-            <div class="flourish"></div>
-          </div>
-
-          <div class="px3">
-            <p class="bold mb1">Token ID</p>
-            <p class="gray mb2">12848934 (Expires in 23 hours)</p>
-            <div class="bb-subtle mb3"></div>
-          </div>
-
-          <div class="px3">
-            <p class="bold mb1">Records Available For Download</p>
-            <p class="gray mb2">12848934 (0 Used) </p>
-<div class="bg-orange tooltip circle white right tooltip" data-tooltip=" You have no more downloads available. Your Radius Contact (info below) can help you.">!
-</div>
-
-            <div class="bb-subtle mb2"></div>
-          </div>
-
-          <div class="px3">
-            <p class="pb1 bold m0">Radius Contact</p>
-
-            <p class="m0">Wes Heavner</p>
-            <a href="#" class="m0">wes@radius.com</a>
-            <p class="">512-123-4567</p>
-            <div class="bb-subtle mb3"></div>
-          </div>
-        </div>
-
-        <div class="px3 mb1">
-          <p class="regular mb1 bold">3rd Party Analysis Downloads</p>
-        </div>
-
-        <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-          <a href="#">
-            <div class="ml1 flex flex-center p1">
-              <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-              <div class="flex-auto">
-                <p class="m0 blue">Equifax Analysis</p>
-              </div>
+              <ul>
+                <li class="sm-col sm-col-3">Company</li>
+                <li class="sm-col sm-col-3">Contact</li>
+                <li class="sm-col sm-col-3">NAICS Description</li>
+                <li class="sm-col sm-col-3">NAICS Code</li>
+              </ul>
             </div>
-          </a>
-        </div>
-        <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-          <a href="#">
-            <div class="ml1 flex flex-center p1">
-              <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-              <div class="flex-auto">
-                <p class="m0 blue">Equifax Analysis</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-          <a href="#">
-            <div class="ml1 flex flex-center p1">
-              <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-              <div class="flex-auto">
-                <p class="m0 blue">Equifax Analysis</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </nav>
 
-      <!-- <div class="tooltip"> -->
-        <!--   <span class="tooltiptext">You have used all of your allotted downloads. Your Radius Contact (info below) can help you.</span> -->
-        <!-- </div> -->
-    </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="js/Jexpand.js"></script>
-    <script src="js/rellax.js"></script>
-    <script>
-      // Accepts any class name
+            <header class="center px3 py4  gray bg-cover bg-center">
+              <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg"
+              width="96" height="96"
+              class="mb3" />
+              <p class="h4">Try searching for an industry, we have some data you’re going to want to see.</p>
+            </header>
+
+          </div>
+
+
+
+        </main>
+        <!-- Side bar -->
+        <nav class="flex-first flex flex-column shadow-sidebar portal-sidebar bg-white">
+          <div class="sidebar-gradient"></div>
+
+          <div class="col-2">
+            <figure class="m0 p0">
+              <img src="img/rad-logo-r-gradient.svg" class="rad-logo-r m3" alt="">
+            </figure>
+          </div>
+          <div class="mb4 ">
+            <div class="mb3 px3">
+              <h4 class="m0 p0">Welcome,</h4>
+              <h4 class="mt0 mb2 p0 bold">Capital One</h4>
+              <div class="flourish"></div>
+            </div>
+
+            <div class="px3">
+              <p class="bold mb1">Token ID</p>
+              <p class="mb2">12848934 (Expires in 23 hours)</p>
+              <div class="bb-subtle mb3"></div>
+            </div>
+
+            <div class="px3">
+              <p class="bold mb1">Records Available For Download</p>
+              <p class="mb2"><span class="orange">0 Remaining</span> (500 used) </p>
+              <div class="bg-orange tooltip warning-circle white right" data-tooltip="You have no more downloads available. Your Radius Contact (info below) can help you.">Tooltip</div>
+
+              <div class="bb-subtle mb2"></div>
+            </div>
+
+            <div class="px3">
+              <p class="p-sm bold pb1 m0">Radius Contact</p>
+
+              <p class="m0 p">Wes Heavner</p>
+              <a href="#" class="m0">wes@radius.com</a>
+              <p class="h6">512-123-4567</p>
+              <div class="bb-subtle mb3"></div>
+            </div>
+          </div>
+
+          <div class="px3 pt4 mb1">
+            <p class="mb1 h6 bold">3rd Party Analysis Downloads</p>
+          </div>
+
+          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+            <a href="#">
+              <div class="ml1 flex flex-center p1">
+                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
+                <div class="flex-auto">
+                  <p class="m0 gray">Equifax Analysis</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+            <a href="#">
+              <div class="ml1 flex flex-center p1">
+                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
+                <div class="flex-auto">
+                  <p class="m0 gray">Equifax Analysis</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+            <a href="#">
+              <div class="ml1 flex flex-center p1">
+                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
+                <div class="flex-auto">
+                  <p class="m0 gray">Equifax Analysis</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </nav>
+
+        <!-- <div class="tooltip"> -->
+          <!--   <span class="tooltiptext">You have used all of your allotted downloads. Your Radius Contact (info below) can help you.</span> -->
+          <!-- </div> -->
+      </div>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+      <script src="js/Jexpand.js"></script>
+      <script src="js/rellax.js"></script>
+      <script>
+        // Accepts any class name
   var rellax = new Rellax('.rellax');
 </script>
 </body>

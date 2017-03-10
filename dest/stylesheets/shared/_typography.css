@@ -30,6 +30,13 @@ p{
   line-height:var(--p-line-height);
 }
 
+.p-sm{
+  font-size:var(--p-sm);
+  font-weight:var(--p-sm-font-weight);
+  letter-spacing:var(--p-letter-spacing);
+  line-height:var(--p-line-height);
+}
+
 h1{
   font-size:var(--h1);
   font-weight:var(--h1-font-weight);

@@ -9,7 +9,8 @@
   width:466px;
 }
 
-.portal-search{
+.input-search{
+
   background:transparent url("../../img/icon-download.svg") no-repeat 16px center;
   background-size:30px auto;
   border-radius:var(--border-radius);
@@ -17,40 +18,38 @@
   box-shadow:0 3px 8px 0 rgba(0,0,0,0.1);
   content:'';
   font-family:var(--aktiv-thin);
-  height:73px;
+  font-size:var(--h4);
+  height:60px;
+  padding-left:60px;
   min-height:73px;
 }
 
-.portal-search::-webkit-input-placeholder{
-  font-family:var(--aktiv-thin);
-  font-weight:200;
-  font-size:18px;
+.input-search--large{
+  height:73px;
+}
+
+.input-search::-webkit-input-placeholder,
+.input-search--large::-webkit-input-placeholder{
+  font-size:var(--h4);
   padding-left:40px;
 }
 
-.portal-search::-moz-placeholder{
-  font-family:var(--aktiv-thin);
-  font-weight:200;
-  font-size:18px;
+.input-search::-moz-placeholder,
+.input-search--large::-moz-placeholder{
+  font-size:var(--h4);
   padding-left:40px;
 }
 
-.portal-search:-ms-input-placeholder{
-  font-family:var(--aktiv-thin);
-  font-weight:200;
-  font-size:18px;
+.input-search:-ms-input-placeholder,
+.input-search--large:-ms-input-placeholder{
+  font-size:var(--h4);
   padding-left:40px;
 }
 
-.portal-search::placeholder{
-  font-family:var(--aktiv-thin);
-  font-weight:200;
-  font-size:18px;
+.input-search::placeholder,
+.input-search--large::placeholder{
+  font-size:var(--h4);
   padding-left:40px;
-}
-
-.portal-search{
-
 }
 
 .portal-input{
@@ -115,11 +114,6 @@
   background-color:rgba(248, 249, 250, 1.0);
 }
 
-input[type=text]{
-  font-size:inherit;
-  padding:18px;
-}
-
 .sticky-modal{
   width:800px;
   height:500px;
@@ -162,25 +156,22 @@ input[type=text]{
 }
 
 .tooltip{
-    position:relative;
-    display:inline-block;
+  position:relative;
+  display:inline-block;
 }
 
 .tooltip:after::hover{
 }
 
-*/ */ */ .circle{
-
+*/ */ */ .warning-circle{
   content:'';
-  border-radius:50%;
+  border:0;
+  border-radius:200px;
   color:#fff;
   font-family:var(--aktiv-thin);
   font-size:12px;
-  height:100%;
-  margin:0;
-  padding:0;
   text-align:center;
-  width:16px;
+  width:106px;
 }
 
 
