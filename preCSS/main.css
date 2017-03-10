@@ -8,6 +8,7 @@
 @import 'shared/_gradient';
 @import 'shared/_colors';
 @import 'shared/_shadow';
+@import 'shared/_tooltip';
 
 html {
   box-sizing: border-box;
