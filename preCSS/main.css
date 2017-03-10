@@ -18,14 +18,23 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  color: var(--gray-dark);
+}
+
+a {
+  color: #007BFF;
+  font-size: var(--p-sm)
+}
+
 .rad-logo {
   background: url("../../img/radius-logo-white.svg") no-repeat;
   background-size: contain;
   background-position: center center;
   border: 0;
   display: block;
-  height: 32px;
-  width: 200px;
+  height: 28px;
+  width: 169px;
   z-index: 999;
 }
 
