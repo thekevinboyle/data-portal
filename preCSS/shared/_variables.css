@@ -16,12 +16,13 @@
   --h5: 16px;
   --h6: 14px;
   --subtitle: 18px;
-  --p: 12px;
+  --p: 14px;
   --p-sm: 14px;
   --p-stats: 15px;
   --taxonomy: 16px;
   --alt-goth: 'alternate-gothic-no-2-d', sans-serif;
   --alt-goth-font-size: 72px;
+  --aktiv-thin: 'aktiv-grotesk-thin', sans-serif;
 
 /* Type Weight */
   --p-font-weight: 300;
@@ -78,7 +79,7 @@
   /* --form-field-font-size: 1rem; */
   /* --form-field-height: 2.25rem; */
   /* --form-field-padding-y: .5rem; */
-  /* --form-field-padding-x: .5rem; */
+  /* --form-field-padding-x: 2rem; */
   /* --button-font-size: inherit; */
   /* --button-font-weight: bold; */
   /* --button-line-height: 1.125rem; */

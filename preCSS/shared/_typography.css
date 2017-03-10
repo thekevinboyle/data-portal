@@ -1,5 +1,11 @@
 /* Typography  */
 
+.aktiv-thin {
+font-family: var(--aktiv-thin);
+font-style: normal;
+font-weight: 200;
+}
+
 .uber {
   font-size: var(--uber);
   letter-spacing: var(--uber-letter-spacing);

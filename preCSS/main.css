@@ -8,6 +8,7 @@
 @import 'shared/_gradient';
 @import 'shared/_colors';
 @import 'shared/_shadow';
+@import 'shared/_tooltip';
 
 html {
   box-sizing: border-box;
@@ -71,15 +72,6 @@ html {
   border: transparent;
   height: 2px;
   width: 25px;
-}
-
-.bb-subtle {
-  border: 1px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: black;
-  opacity: 0.1;
-  width: 100%;
 }
 
 .border-subtle {

@@ -1,74 +1,80 @@
+.aktiv-thin{
+font-family:var(--aktiv-thin);
+font-style:normal;
+font-weight:200;
+}
+
 .uber{
-  font-size: var(--uber);
-  letter-spacing: var(--uber-letter-spacing);
-  line-height: var(--uber-line-height);
+  font-size:var(--uber);
+  letter-spacing:var(--uber-letter-spacing);
+  line-height:var(--uber-line-height);
 }
 
 .subtitle{
-  font-size: var(--subtitle);
-  font-weight: var(--subtitle-font-weight);
-  letter-spacing: var(--subtitle-letter-spacing);
-  line-height: var(--subtitle-line-height);
+  font-size:var(--subtitle);
+  font-weight:var(--subtitle-font-weight);
+  letter-spacing:var(--subtitle-letter-spacing);
+  line-height:var(--subtitle-line-height);
 }
 
 .taxonomy{
-  font-size: var(--taxonomy);
-  letter-spacing: var(--taxonomy-letter-spacing);
-  line-height: var(--taxonomy-line-height);
+  font-size:var(--taxonomy);
+  letter-spacing:var(--taxonomy-letter-spacing);
+  line-height:var(--taxonomy-line-height);
 }
 
 p{
-  font-size: var(--p);
-  font-weight: var(--p-font-weight);
-  letter-spacing: var(--p-letter-spacing);
-  line-height: var(--p-line-height);
+  font-size:var(--p);
+  font-weight:var(--p-font-weight);
+  letter-spacing:var(--p-letter-spacing);
+  line-height:var(--p-line-height);
 }
 
 h1{
-  font-size: var(--h1);
-  font-weight: var(--h1-font-weight);
-  letter-spacing: var(--h1-letter-spacing);
-  line-height: var(--h1-line-height);
+  font-size:var(--h1);
+  font-weight:var(--h1-font-weight);
+  letter-spacing:var(--h1-letter-spacing);
+  line-height:var(--h1-line-height);
 }
 
 h2{
-  font-size: var(--h2);
-  font-weight: var(--h2-font-weight);
-  letter-spacing: var(--h2-letter-spacing);
-  line-height: var(--h2-line-height);
+  font-size:var(--h2);
+  font-weight:var(--h2-font-weight);
+  letter-spacing:var(--h2-letter-spacing);
+  line-height:var(--h2-line-height);
 }
 
 h3{
-  font-size: var(--h3);
-  font-weight: var(--h3-font-weight);
-  letter-spacing: var(--h3-letter-spacing);
-  line-height: var(--h3-line-height);
+  font-size:var(--h3);
+  font-weight:var(--h3-font-weight);
+  letter-spacing:var(--h3-letter-spacing);
+  line-height:var(--h3-line-height);
 }
 
 h4{
-  font-size: var(--h4);
-  font-weight: var(--h4-font-weight);
-  letter-spacing: var(--h4-letter-spacing);
-  line-height: var(--h4-line-height);
+  font-size:var(--h4);
+  font-weight:var(--h4-font-weight);
+  letter-spacing:var(--h4-letter-spacing);
+  line-height:var(--h4-line-height);
 }
 
 h5{
-  font-size: var(--h5);
-  font-weight: var(--h5-font-weight);
-  letter-spacing: var(--h5-letter-spacing);
-  line-height: var(--h5-line-height);
+  font-size:var(--h5);
+  font-weight:var(--h5-font-weight);
+  letter-spacing:var(--h5-letter-spacing);
+  line-height:var(--h5-line-height);
 }
 
 h6{
-  font-size: var(--h6);
-  font-weight: var(--h6-font-weight);
+  font-size:var(--h6);
+  font-weight:var(--h6-font-weight);
 }
 
 .p-stats{
-  font-size: var(--p-stats);
+  font-size:var(--p-stats);
 }
 
 .alt-goth{
-  font-family: var(--alt-goth);
-  font-size: var(--alt-goth-font-size);
+  font-family:var(--alt-goth);
+  font-size:var(--alt-goth-font-size);
 }
