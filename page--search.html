@@ -13,21 +13,19 @@
   <link href="dest/stylesheets/main.css" rel="stylesheet">
 </head>
 
-<body class="" >
-  <div class="flex flex-column vh-100 bg-light">
-    <div class="flex-auto sm-flex">
-      <main class="flex-auto px3 py3">
+<body class="state--sidebar-open">
+  <div class="container-master bg-light">
+
+      <main class="container-primary">
 
         <!-- Data Table -->
-        <!-- Future Home of Accordion Row -->
-
-        <div class="mx4">
+        <div class="row">
           <form class="flex flex-auto mb4 ">
             <label for="search" class="hide">Search</label>
             <input id="search" type="text" placeholder="Search" class="field flex-auto input-search input-search--large  rounded">
           </form>
 
-          <div class="px2 ">
+          <div class="">
             <p class="muted">Showing 10 of Samples of 8,550 results multiple</p>
           </div>
 
@@ -70,14 +68,12 @@
 
             </tbody>
           </table>
-
-
         </div>
 
         <!-- Download Records Section -->
 
 
-        <div class="clearfix mb2 form-download rounded p2 mx4">
+        <div class="row mb2 form-download rounded p2">
           <form class="flex flex-center">
             <label class="hide" for="search">Enter Amount</label>
 
@@ -94,9 +90,8 @@
         <div class="clearfix p3">
           <div class="center col-10 mx-auto">
 
-<p class="h4">Hm, we couldn’t find anything for ‘bacon’</p>
-<p class="taxonomy"> Try searching again, or choose one of these handy suggestions we made just for you:
-</p>
+            <p class="h4">Hm, we couldn’t find anything for ‘bacon’</p>
+            <p class="taxonomy"> Try searching again, or choose one of these handy suggestions we made just for you:</p>
             <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Credit Intermediation And Related Activities</button>
             <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
             <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Finance and Insurance</button>
@@ -105,7 +100,7 @@
       </main>
 
       <!-- Side bar -->
-      <nav class="flex-first flex flex-column shadow-sidebar portal-sidebar bg-white">
+      <nav class="container-sidebar xportal-sidebar shadow-sidebar bg-white">
         <div class="sidebar-gradient"></div>
 
         <div class="col-2">
@@ -137,7 +132,7 @@
             <p class="p-sm bold pb1 m0">Radius Contact</p>
 
             <p class="m0 p">Wes Heavner</p>
-            <a href="#" class="m0">wes@radius.com</a>
+            <a href="#" class="m0 orange-red">wes@radius.com</a>
             <p class="h6">512-123-4567</p>
             <div class="bb-subtle mb3"></div>
           </div>
@@ -180,7 +175,7 @@
       </nav>
 
 
-    </div>
+
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="js/Jexpand.js"></script>
     <script src="js/rellax.js"></script>

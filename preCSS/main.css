@@ -3,6 +3,7 @@
 @import 'shared/_variables';
 @import 'shared/_typography';
 @import 'shared/_helpers';
+@import 'shared/_frame';
 @import 'pages/_data-portal';
 @import 'shared/_ctas';
 @import 'shared/_gradient';
