@@ -1,38 +1,34 @@
-:root{
-
-}
-
 .uber{
-  font-size: var(--uber);
-  letter-spacing: var(--uber-letter-spacing);
+  font-size:var(--uber);
+  letter-spacing:var(--uber-letter-spacing);
 }
 
 .h1{
-  font-size: 2rem;
-  letter-spacing: var(--h1-letter-spacing);
+  font-size:2rem;
+  letter-spacing:var(--h1-letter-spacing);
 }
 
 .h2{
-  font-size: 1.5rem;
-  letter-spacing: var(--h2-letter-spacing);
+  font-size:1.5rem;
+  letter-spacing:var(--h2-letter-spacing);
 }
 
 .h3{
-  font-size: 1.25rem;
-  letter-spacing: var(--h3-letter-spacing);
+  font-size:1.25rem;
+  letter-spacing:var(--h3-letter-spacing);
 }
 
 .h4{
-  font-size: 1rem;
-  letter-spacing: var(--h4-letter-spacing);
+  font-size:1rem;
+  letter-spacing:var(--h4-letter-spacing);
 }
 
 .h5{
-  font-size: .875rem;
-  letter-spacing: var(--h5-letter-spacing);
+  font-size:.875rem;
+  letter-spacing:var(--h5-letter-spacing);
 }
 
 .h6{
-  font-size: .75rem;
+  font-size:.75rem;
 }
 

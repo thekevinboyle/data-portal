@@ -6,10 +6,6 @@ img{ max-width:100% }
 
 svg{ max-height:100% }
 
-:root{
-
-}
-
 input,
 select,
 textarea,
@@ -593,27 +589,27 @@ hr{
   display:none !important
 }
 
-@media (min-width: 40em){
+@media max-width:750px{
   .sm-show{ display:block !important }
 }
 
-@media (min-width: 52em){
+@media (min-width:750px) and (max-width:960px){
   .md-show{ display:block !important }
 }
 
-@media (min-width: 64em){
+@media (min-width:960px){
   .lg-show{ display:block !important }
 }
 
-@media (min-width: 40em){
+@media max-width:750px{
   .sm-hide{ display:none !important }
 }
 
-@media (min-width: 52em){
+@media (min-width:750px) and (max-width:960px){
   .md-hide{ display:none !important }
 }
 
-@media (min-width: 64em){
+@media (min-width:960px){
   .lg-hide{ display:none !important }
 }
 
@@ -685,7 +681,7 @@ hr{
   width:100%;
 }
 
-@media (min-width: 40em){
+@media max-width:750px{
 
   .sm-col{
     float:left;
@@ -747,7 +743,7 @@ hr{
 
 }
 
-@media (min-width: 52em){
+@media (min-width:750px) and (max-width:960px){
 
   .md-col{
     float:left;
@@ -809,7 +805,7 @@ hr{
 
 }
 
-@media (min-width: 64em){
+@media (min-width:960px){
 
   .lg-col{
     float:left;
@@ -905,15 +901,15 @@ hr{
 
 .flex-last{ -webkit-order:99999; -ms-flex-order:99999; order:99999 }
 
-@media (min-width: 40em){
+@media max-width:750px{
   .sm-flex{ display:-webkit-flex; display:-ms-flexbox; display:flex }
 }
 
-@media (min-width: 52em){
+@media (min-width:750px) and (max-width:960px){
   .md-flex{ display:-webkit-flex; display:-ms-flexbox; display:flex }
 }
 
-@media (min-width: 64em){
+@media (min-width:960px){
   .lg-flex{ display:-webkit-flex; display:-ms-flexbox; display:flex }
 }
 
@@ -1029,9 +1025,6 @@ hr{
 .bg-purple{ background-color:#B10DC9 }
 
 .bg-maroon{ background-color:#85144B }
-
-:root{
-}
 
 .aktiv-thin{
 font-family:'aktiv-grotesk-thin', sans-serif;
@@ -1381,10 +1374,6 @@ background:linear-gradient(to right, # 0%, #dee8f0 100%);
 
 .gradient-dark{
 background:linear-gradient(to right, #f4f8fa 0%, #dee8f0 100%);
-}
-
-:root{
-
 }
 
 .gray-dark{

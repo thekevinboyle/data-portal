@@ -34,7 +34,7 @@ gulp.task('css', function () {
   ];
   return gulp.src('./preCSS/**/*.css')
     .pipe(postcss(processors))
-  // .pipe(postcss(processors).on('error', gutil.log))
+    .pipe(postcss(processors).on('error', gutil.log))
     .pipe(gulp.dest('./dest/stylesheets/'));
 });
 

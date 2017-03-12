@@ -1,7 +1,3 @@
-:root{
-
-}
-
 .flex{ display:-webkit-flex; display:-ms-flexbox; display:flex }
 
 .flex-column{ -webkit-flex-direction:column; -ms-flex-direction:column; flex-direction:column }
