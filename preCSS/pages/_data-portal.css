@@ -10,8 +10,8 @@
 }
 
 .input-search {
-  background: transparent url("../../img/icon-download.svg") no-repeat 16px center;
-  background-size: 30px auto;
+  background: transparent url("../../img/search.svg") no-repeat 16px center;
+  background-size: 18px auto;
   border-radius: var(--border-radius);
   border: 0px solid #d9dee2;
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.1);
@@ -185,4 +185,8 @@
   display: block;
   height: 16px;
   width: 16px;
+}
+
+.bb-muted {
+  border-bottom: 1px solid #D9DEE2;
 }
