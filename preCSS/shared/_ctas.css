@@ -14,8 +14,16 @@ box-shadow: inset 0px -3px 0px;
 
 .cta-portal {
   /* width: 153px; */
+background: rgba(33,128,252,1);
+background: -moz-linear-gradient(left, rgba(33,128,252,1) 0%, rgba(47,0,254,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(33,128,252,1)), color-stop(100%, rgba(47,0,254,1)));
+background: -webkit-linear-gradient(left, rgba(33,128,252,1) 0%, rgba(47,0,254,1) 100%);
+background: -o-linear-gradient(left, rgba(33,128,252,1) 0%, rgba(47,0,254,1) 100%);
+background: -ms-linear-gradient(left, rgba(33,128,252,1) 0%, rgba(47,0,254,1) 100%);
+background: linear-gradient(to right, rgba(33,128,252,1) 0%, rgba(47,0,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2180fc', endColorstr='#2f00fe', GradientType=1 );
   border: 0;
   height: 50px;
-  background: linear-gradient(90deg, #0E7FFC 0%, #1B2DFF 100%);
   border-radius: 5px;
+  min-width: 150px;
 }

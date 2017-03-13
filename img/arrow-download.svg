@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-download" fill="#000000">
+            <path d="M16.3967214,21.9038428 L16.3967214,1 L14.375,1 L14.375,20.81076 L6.52191567,11.9375 L5,13.2524308 L15.8695652,25.5340357 L26.7391304,13.2524308 L25.2172147,11.9375 L16.3967214,21.9038428 Z M5,29.1249999 L26.8749999,29.1249999 L26.8749999,31 L5,31 L5,29.1249999 Z" id="Combined-Shape" transform="translate(15.937500, 16.000000) rotate(-360.000000) translate(-15.937500, -16.000000) "></path>
+        </g>
+    </g>
+</svg>
