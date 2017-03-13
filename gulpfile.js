@@ -21,10 +21,12 @@ var corepostcss = require('postcss');
 
 gulp.task('css', function () {
   var processors = [
-    arrowBoxes,
+    require('postcss-arrow-boxes'),
     require('postcss-import'),
     require('postcss-custom-media'),
     require('postcss-custom-properties'),
+    require('postcss-extend'),
+    require('postcss-nesting'),
     require('postcss-calc'),
     require('postcss-color-function'),
     require('cssstats'),
@@ -32,9 +34,9 @@ gulp.task('css', function () {
     require('autoprefixer')({browsers: ['last 4 versions']}),
     require('postcss-reporter')
   ];
-  return gulp.src('./preCSS/**/*.css')
-    .pipe(postcss(processors))
-  // .pipe(postcss(processors).on('error', gutil.log))
+  return gulp.src('./preCSS/main.css')
+    // .pipe(postcss(processors))
+    .pipe(postcss(processors).on('error', gutil.log))
     .pipe(gulp.dest('./dest/stylesheets/'));
 });
 

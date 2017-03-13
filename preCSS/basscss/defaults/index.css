@@ -3,7 +3,7 @@
 /* @import "colors.css/myth/variables"; */
 @import 'colors.css/src/_variables';
 
-@custom-media --breakpoint-sm (min-width: 666px);
+@custom-media --breakpoint-sm (min-width: 970px);
 @custom-media --breakpoint-md (min-width: 666px);
 @custom-media --breakpoint-lg (min-width: 666px);
 

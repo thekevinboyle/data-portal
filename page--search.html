@@ -13,99 +13,77 @@
   <link href="dest/stylesheets/main.css" rel="stylesheet">
 </head>
 
-<body class="" >
-  <div class="flex flex-column vh-100 bg-light">
-    <div class="flex-auto sm-flex">
-      <main class="flex-auto px3 py3">
+<body class="state--sidebar-open">
+  <div class="container-master bg-light">
+
+      <main class="container-primary">
 
         <!-- Data Table -->
-        <!-- Future Home of Accordion Row -->
-
-        <div class="mx4">
-          <form class="flex flex-auto mb4 ">
+        <div class="row pt2">
+          <form class="flex flex-auto mb4">
             <label for="search" class="hide">Search</label>
             <input id="search" type="text" placeholder="Search" class="field flex-auto input-search input-search--large  rounded">
           </form>
 
-          <div class="px2 ">
+          <div class="">
             <p class="muted">Showing 10 of Samples of 8,550 results multiple</p>
           </div>
 
-          <div class="clearfix border-bottom mb2 pb2 p0">
+          <div class="clearfix">
 
-            <ul>
-              <li class="sm-col sm-col-3 p-sm">Company</li>
-              <li class="sm-col sm-col-3 p-sm">Contact</li>
-              <li class="sm-col sm-col-3 p-sm">NAICS Description</li>
-              <li class="sm-col sm-col-3 p-sm">NAICS Code</li>
-            </ul>
           </div>
 
-          <table id="detail_table" class="detail rounded table-shadow bg-white p2 mb2">
-            <!-- <colgroup> -->
-            <!--   <col class="sm&#45;col sm&#45;col&#45;3"> -->
-            <!--   <col class="sm&#45;col sm&#45;col&#45;3"> -->
-            <!--   <col class="sm&#45;col sm&#45;col&#45;3"> -->
-            <!--   <col class="sm&#45;col sm&#45;col&#45;3"> -->
-            <!-- </colgroup> -->
-            <!-- <thead> -->
-            <!-- </thead> -->
-
-            <tbody>
+          <div class="overflow-scroll">
+            <table class="detail rounded table-shadow bg-white p2 mb2" id="">
+              <thead>
+                <tr>
+                  <th class="p-sm">Company</th> <th class="p-sm">Contact</th> <th class="p-sm">NAICS Description</th> <th class="p-sm">NAICS Code</th>
+                </tr>
+              </thead>
+              <tbody>
               <tr class="parent" id="row123" title="" style="cursor: pointer;">
-                <td class=" sm-col sm-col-3 p-sm">Michael Jordan</td>
-                <td class=" sm-col sm-col-3 p-sm">Michael Jordan</td>
-                <td class=" sm-col sm-col-3 p-sm">Michael Jordan</td>
-                <td class=" sm-col sm-col-3 p-sm">Michael Jordan <span class="caret right"></span>
+                <td class=" sm-col sm-col-3 p-sm">Western Union</td>
+                <td class=" sm-col sm-col-3 p-sm">Jenny Spicer</td>
+                <td class=" sm-col sm-col-3 p-sm">Finance and Insurance</td>
+                <td class=" sm-col sm-col-3 p-sm">100000010<span class="caret right"></span>
                 </td>
 
               </tr>
 
               <tr class="child-row123" style="display: none;">
-                <td class=" sm-col sm-col-3 p-sm">Michael Jordan</td>
-                <td class=" sm-col sm-col-3 p-sm">Michael Jordan</td>
-                <td class=" sm-col sm-col-3 p-sm">Michael Jordan</td>
-                <td class=" sm-col sm-col-3 p-sm">Michael Jordan</td>
+                <td class=" sm-col sm-col-3 p-sm">Western Union</td>
+                <td class=" sm-col sm-col-3 p-sm">Jenny Spicer</td>
+                <td class=" sm-col sm-col-3 p-sm">Finance and Insurance</td>
+                <td class=" sm-col sm-col-3 p-sm">100000010</td>
               </tr>
 
             </tbody>
-          </table>
-
-
+            </table>
+          </div>
         </div>
 
         <!-- Download Records Section -->
+        <div class="clearfix p2">
 
+          <div class="row mb2 form-download rounded p3">
+            <form class="flex flex-center mx-auto">
+              <label class="hide" for="search">Enter Amount</label>
+              <div class="mr-auto">
+                <p class="m0">500 Downloads remaining</p>
+              </div>
+              <div class="">
+                <input class="white field input-default mr2" id="search" type="text" placeholder=" Enter Amount" >
 
-        <div class="clearfix mb2 form-download rounded p2 mx4">
-          <form class="flex flex-center">
-            <label class="hide" for="search">Enter Amount</label>
-
-            <div>
-              <p class="flex-auto">500 Downloads remaining</p>
-            </div>
-            <div class="flex-auto">
-              <button class="right btn btn-primary cta-portal">Download</button>
-              <input class="right white field mr2" id="search" type="text" placeholder=" Enter Amount" >
-            </div>
-          </form>
-        </div>
-
-        <div class="clearfix p3">
-          <div class="center col-10 mx-auto">
-
-<p class="h4">Hm, we couldn’t find anything for ‘bacon’</p>
-<p class="taxonomy"> Try searching again, or choose one of these handy suggestions we made just for you:
-</p>
-            <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Credit Intermediation And Related Activities</button>
-            <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
-            <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Finance and Insurance</button>
+                <button class="btn btn-primary cta-portal">Download</button>
+              </div>
+            </form>
           </div>
         </div>
+
       </main>
 
       <!-- Side bar -->
-      <nav class="flex-first flex flex-column shadow-sidebar portal-sidebar bg-white">
+      <nav class="container-sidebar xportal-sidebar shadow-sidebar bg-white">
         <div class="sidebar-gradient"></div>
 
         <div class="col-2">
@@ -116,10 +94,9 @@
         <div class="mb4 ">
           <div class="mb3 px3">
             <h4 class="m0 p0">Welcome,</h4>
-            <h4 class="mt0 mb2 p0 bold">Capital One</h4>
+            <h4 class="mt0 mb2 p0">Capital One</h4>
             <div class="flourish"></div>
           </div>
-
           <div class="px3">
             <p class="bold mb1">Token ID</p>
             <p class="mb2">12848934 (Expires in 23 hours)</p>
@@ -152,7 +129,7 @@
             <div class="ml1 flex flex-center p1">
               <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
               <div class="flex-auto">
-                <p class="m0 gray">Equifax Analysis</p>
+                <p class="m0 gray overflow-hidden">Equifax Analysis</p>
               </div>
             </div>
           </a>
@@ -180,12 +157,12 @@
       </nav>
 
 
-    </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="js/Jexpand.js"></script>
-    <script src="js/rellax.js"></script>
-    <script>
-      // Accepts any class name
+
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+      <script src="js/Jexpand.js"></script>
+      <script src="js/rellax.js"></script>
+      <script>
+        // Accepts any class name
   var rellax = new Rellax('.rellax');
 </script>
 </body>

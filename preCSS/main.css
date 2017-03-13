@@ -3,12 +3,17 @@
 @import 'shared/_variables';
 @import 'shared/_typography';
 @import 'shared/_helpers';
+@import 'shared/_frame';
 @import 'pages/_data-portal';
 @import 'shared/_ctas';
 @import 'shared/_gradient';
 @import 'shared/_colors';
 @import 'shared/_shadow';
 @import 'shared/_tooltip';
+
+@custom-media --breakpoint-sm max-width:750px;
+@custom-media --breakpoint-md (min-width:750px) and (max-width:960px);
+@custom-media --breakpoint-lg (min-width:960px);
 
 html {
   box-sizing: border-box;
@@ -22,9 +27,17 @@ body {
   color: var(--gray-dark);
 }
 
-a {
-  color: #007BFF;
-  font-size: var(--p-sm)
+a,
+a:active,
+a:visited {
+  /* color: #007BFF; */
+  color: inherit;
+  font-size: var(--p-sm);
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
 }
 
 .rad-logo {
@@ -67,12 +80,6 @@ a {
   border-radius: 5px;
 }
 
-.cta-portal {
-  width: 153px;
-  height: 50px;
-  background: linear-gradient(90deg, #00D4FC 0%, #2304FF 100%);
-  border-radius: 5px;
-}
 
 /* ------------------------- */
 /* Decos */

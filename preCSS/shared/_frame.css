@@ -1,0 +1,37 @@
+.container-master,
+.container-primary,
+.container-sidebar {
+  transition: all .25s ease-in-out;
+}
+
+.container-master {
+  display: flex;
+  min-height: 100vh;
+}
+
+.container-primary {
+  order: 2;
+  flex-basis: 100%;
+}
+  .state--sidebar-open .container-primary {
+    flex-basis: 90%;
+  }
+
+.container-sidebar {
+  margin-left: -300px;
+  flex-basis: 0%;
+  min-width: 300px;
+  order: 1;
+}
+  .state--sidebar-open .container-sidebar {
+    margin-left: 0;
+    flex-basis: 10%;
+  }
+
+.row {
+  width: 90%;
+  max-width: 970px;
+  margin: 0 auto;
+  @extend .clearfix;
+}
+

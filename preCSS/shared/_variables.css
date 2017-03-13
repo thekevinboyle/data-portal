@@ -1,4 +1,5 @@
 
+
 :root {
   --font-family: 'aktiv-grotesk', Helvetica, sans-serif;
   /* --line-height: 1.5; */
@@ -8,11 +9,11 @@
   /* --monospace-font-family: 'Source Code Pro', Consolas, monospace; */
 
 /* Typograghpy Size */
-  --uber: 48px;
-  --h1: 42px;
+  --uber: 42px;
+  --h1: 29px;
   --h2: 24px;
-  --h3: 21px;
-  --h4: 18px;
+  --h3: 20px;
+  --h4: 17px;
   --h5: 12px;
   --h6: 12px;
   --subtitle: 18px;
@@ -22,26 +23,27 @@
   --taxonomy: 16px;
   --alt-goth: 'alternate-gothic-no-2-d', sans-serif;
   --alt-goth-font-size: 72px;
-  --aktiv-thin: 'aktiv-grotesk-thin', sans-serif;
+  /* --aktiv-thin: 'aktiv-grotesk-thin', sans-serif; */
 
 /* Type Weight */
-  --p-font-weight: 300;
-  --p-sm-font-weight: 500;
-  --h1-font-weight: 400;
-  --h2-font-weight: 400;
+  --p-font-weight: 400;
+  --p-sm-font-weight: 400;
+  --uber-font-weight: 500;
+  --h1-font-weight: 500;
+  --h2-font-weight: 500;
   --h3-font-weight: 300;
   --h4-font-weight: 300;
-  --h5-font-weight: 400;
+  --h5-font-weight: 500;
   --h6-font-weight: 300;
   --subtitle-font-weight: 300;
 
   /* Typography Line Height */
   --heading-line-height: 1.25;
   --uber-line-height: 48px;
-  --h1-line-height: 48px;
+  --h1-line-height: 33px;
   --h2-line-height: 27px;
-  --h3-line-height: 24px;
-  --h4-line-height: 21px;
+  --h3-line-height: 22px;
+  --h4-line-height: 19px;
   --h5-line-height: 14px;
   --subtitle-line-height: 24px;
   --p-line-height: 19px;
