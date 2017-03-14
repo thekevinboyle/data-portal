@@ -1398,6 +1398,11 @@ background:linear-gradient(to right, # 0%, #dee8f0 100%);
 background:linear-gradient(to right, #f4f8fa 0%, #dee8f0 100%);
 }
 
+.bg-download{
+opacity:0.95;
+background:linear-gradient(180deg, #003247 0%, #04054C 100%);
+}
+
 :root{
 }
 
