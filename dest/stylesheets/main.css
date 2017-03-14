@@ -1177,11 +1177,14 @@ h6{
 }
 
 .input-search{
-  background:transparent url("../../img/search.svg") no-repeat 16px center;
-  background-size:18px auto;
-  border-radius:5px;
-  border:0px solid #d9dee2;
-  box-shadow:0 3px 8px 0 rgba(0,0,0,0.1);
+  background:url("../../img/search.svg"),url("../../img/exit.svg");
+  background-repeat:no-repeat, no-repeat;
+  background-position:left 25px center, right 25px center;
+  background-size:14px auto, 14px auto;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:1px solid #d9dee2;
   content:'';
   font-size:17px;
   height:3.25rem;
@@ -1295,6 +1298,12 @@ h6{
   border-top:11px solid transparent;
   border-bottom:11px solid transparent;
   border-left:11px solid black;
+
+  -webkit-transform:translateY(4px);
+
+      -ms-transform:translateY(4px);
+
+          transform:translateY(4px);
 }
 
 .gradient-intro{
@@ -1780,14 +1789,14 @@ a:hover{
 }
 
 .rad-logo{
-  background:url("../../img/radius-logo-white.svg") no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-position:center center;
   border:0;
-  display:block;
-  height:28px;
-  width:169px;
-  z-index:999;
+  display:inline-block;
+  max-height:27px;
+  width:108px;
+  margin-left:0;
+  padding-left:0;
 }
 
 .rad-logo-r{
