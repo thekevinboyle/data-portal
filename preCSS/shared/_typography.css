@@ -1,10 +1,5 @@
 /* Typography  */
 
-.aktiv-thin {
-font-family: var(--aktiv-thin);
-font-style: normal;
-font-weight: 200;
-}
 
 .uber {
   font-size: var(--uber);
@@ -86,6 +81,7 @@ h6 {
 .alt-goth {
   font-family: var(--alt-goth);
   font-size: var(--alt-goth-font-size);
+  line-height: 72px;
 }
 /* ------------------------- */
 

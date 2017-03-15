@@ -27,7 +27,7 @@ color: var(--gray-dark);
 }
 
 .gray-lightest {
-  color: var(--gray-lighest);
+  color: var(--gray-lightest);
 }
 
 .bg-navy { background-color: #001F3F; }
