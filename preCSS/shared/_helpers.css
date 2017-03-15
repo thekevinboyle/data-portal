@@ -134,14 +134,14 @@
 .pt35  { padding-top:       var(--space-35) }
 .pb35  { padding-bottom:       var(--space-35) }
 .py35 { padding-top:   var(--space-35); padding-bottom: var(--space-35) }
-.px35 { padding-left:  var(--space-35; padding-right:  var(--space-35) }
+.px35 { padding-left:  var(--space-35); padding-right:  var(--space-35) }
 
 .pl40  { padding-left:       var(--space-40) }
 .pr40  { padding-right:       var(--space-40) }
 .pt40  { padding-top:       var(--space-40) }
 .pb40  { padding-bottom:       var(--space-40) }
 .py40 { padding-top:   var(--space-40); padding-bottom: var(--space-40) }
-.px40 { padding-left:  var(--space-40; padding-right:  var(--space-40) }
+.px40 { padding-left:  var(--space-40); padding-right:  var(--space-40) }
 
 .p50  { padding:       var(--space-50) }
 

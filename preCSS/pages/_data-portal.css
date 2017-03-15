@@ -184,7 +184,10 @@ min-height: 780px;
 /*   visibility: visible; */
 /* } */
 
-
+.sidebar-download {
+  position: absolute;
+  bottom: 30px;
+}
 
 .sidebar-offer {
   text-decoration: none;
