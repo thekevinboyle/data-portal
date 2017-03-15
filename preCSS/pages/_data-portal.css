@@ -1,3 +1,7 @@
+.portal-hero {
+min-height: 780px;
+}
+
 .portal-sidebar {
   min-width: 300px;
   z-index: 2;
@@ -70,11 +74,10 @@
 }
 
 .portal-stats {
-  margin: 0 auto;
   max-width: 970px;
   min-height: 400px;
   position: relative;
-  top: -40px;
+  top: -60px;
 }
 
 /* ------------------------- */
@@ -131,7 +134,6 @@
   border-bottom: 11px solid transparent;
   border-left: 11px solid black;
 
-  transform: translateY(4px);
 }
 
 .gradient-intro {

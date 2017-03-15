@@ -57,24 +57,58 @@
 .mb25 { margin-bottom: var(--space-25) }
 .ml25 { margin-left:   var(--space-25) }
 
+.m50  { margin:        var(--space-50) }
+.mt50 { margin-top:    var(--space-50) }
+.mr50 { margin-right:  var(--space-50) }
+.mb50 { margin-bottom: var(--space-50) }
+.ml50 { margin-left:   var(--space-50) }
 
 .p5  { padding:       var(--space-5) }
+.pl5 { padding-left: var(--space-5) }
+.pr5 { padding-right: var(--space-5) }
+.pt5 { padding-top: var(--space-5) }
+.pb5 { padding-bottom: var(--space-5) }
 .py5 { padding-top:   var(--space-5); padding-bottom: var(--space-5) }
 .px5 { padding-left:  var(--space-5); padding-right:  var(--space-5) }
 
 .p10  { padding:       var(--space-10) }
+.pl10  { padding-left:       var(--space-10) }
+.pr10  { padding-right:       var(--space-10) }
+.pt10  { padding-top:       var(--space-10) }
+.pb10  { padding-bottom:       var(--space-10) }
 .py10 { padding-top:   var(--space-10); padding-bottom: var(--space-10) }
 .px10 { padding-left:  var(--space-10); padding-right:  var(--space-10) }
 
 .p15  { padding:       var(--space-15) }
+.pl15  { padding-left:       var(--space-15) }
+.pr15  { padding-right:       var(--space-15) }
+.pt15  { padding-top:       var(--space-15) }
+.pb15  { padding-bottom:       var(--space-15) }
 .py15 { padding-top:   var(--space-15); padding-bottom: var(--space-15) }
 .px15 { padding-left:  var(--space-15); padding-right:  var(--space-15) }
 
 .p20  { padding:       var(--space-20) }
+.pl20  { padding-left:       var(--space-20) }
+.pr20  { padding-right:       var(--space-20) }
+.pt20  { padding-top:       var(--space-20) }
+.pb20  { padding-bottom:       var(--space-20) }
 .py20 { padding-top:   var(--space-20); padding-bottom: var(--space-20) }
 .px20 { padding-left:  var(--space-20); padding-right:  var(--space-20) }
 
-
 .p25  { padding:       var(--space-25) }
+
+.pl25  { padding-left:       var(--space-25) }
+.pr25  { padding-right:       var(--space-25) }
+.pt25  { padding-top:       var(--space-25) }
+.pb25  { padding-bottom:       var(--space-25) }
 .py25 { padding-top:   var(--space-25); padding-bottom: var(--space-25) }
 .px25 { padding-left:  var(--space-25); padding-right:  var(--space-25) }
+
+.p50  { padding:       var(--space-50) }
+
+.pl50  { padding-left:       var(--space-50) }
+.pr50  { padding-right:       var(--space-50) }
+.pt50  { padding-top:       var(--space-50) }
+.pb50  { padding-bottom:       var(--space-50) }
+.py50 { padding-top:   var(--space-50); padding-bottom: var(--space-50) }
+.px50 { padding-left:  var(--space-50); padding-right:  var(--space-50) }

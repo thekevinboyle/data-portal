@@ -14,14 +14,13 @@
   --h4: 17px;
   --h5: 12px;
   --h6: 12px;
-  --subtitle: 18px;
+  --subtitle: 17px;
   --p: 14px;
   --p-sm: 12px;
   --p-stats: 15px;
   --taxonomy: 16px;
   --alt-goth: 'alternate-gothic-no-2-d', sans-serif;
   --alt-goth-font-size: 72px;
-  /* --aktiv-thin: 'aktiv-grotesk-thin', sans-serif; */
 
 /* Type Weight */
   --p-font-weight: 400;
@@ -49,15 +48,16 @@
   --taxonomy-line-height: 16px;
 
 /* Typography Letter Spacing */
-  --uber-letter-spacing: -1px;
+  --uber-letter-spacing: 0;
   --h1-letter-spacing: 0;
   --h2-letter-spacing: 0;
   --h3-letter-spacing: 0;
   --h4-letter-spacing: 0;
-  /* --h5-letter-spacing: -1; */
+  --h5-letter-spacing: 0;
   --caps-letter-spacing: .2px;
   --subtitle-letter-spacing: normal;
-
+  --p-letter-spacing: 0;
+  --taxonomy-letter-spacing: 0;
 
   /* Gradients for backgrounds and full width sections */
   --gradient-lightest: linear-gradient(to right, #f4f8fa 0%, #dee8f0 100%);
@@ -78,6 +78,7 @@
   --space-15: 15px;
   --space-20: 20px;
   --space-25: 25px;
+  --space-50: 50px;
   /* --form-field-font-size: 1rem; */
   /* --form-field-height: 2.25rem; */
   /* --form-field-padding-y: .5rem; */
