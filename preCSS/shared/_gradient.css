@@ -48,3 +48,8 @@ background: var(--gradient-blue);
 .gradient-dark {
 background: var(--gradient-dark);
 }
+
+.bg-download {
+opacity: 0.95;
+background: linear-gradient(180deg, #003247 0%, #04054C 100%);
+}

@@ -41,14 +41,15 @@ a:hover {
 }
 
 .rad-logo {
-  background: url("../../img/radius-logo-white.svg") no-repeat;
-  background-size: contain;
+  /* background: url("../../img/radius-logo.svg") no-repeat; */
+  background-size: cover;
   background-position: center center;
   border: 0;
-  display: block;
-  height: 28px;
-  width: 169px;
-  z-index: 999;
+  display: inline-block;
+  max-height: 27px;
+  width: 108px;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .rad-logo-r {
@@ -79,7 +80,6 @@ a:hover {
   border: 1px solid #D9DEE2;
   border-radius: 5px;
 }
-
 
 /* ------------------------- */
 /* Decos */

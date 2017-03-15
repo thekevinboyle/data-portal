@@ -26,3 +26,55 @@
   height: 41px;
   margin: .5rem;
 }
+
+.m5  { margin:        var(--space-5) }
+.mt5 { margin-top:    var(--space-5) }
+.mr5 { margin-right:  var(--space-5) }
+.mb5 { margin-bottom: var(--space-5) }
+.ml5 { margin-left:   var(--space-5) }
+
+.m10  { margin:        var(--space-10) }
+.mt10 { margin-top:    var(--space-10) }
+.mr10 { margin-right:  var(--space-10) }
+.mb10 { margin-bottom: var(--space-10) }
+.ml10 { margin-left:   var(--space-10) }
+
+.m15  { margin:        var(--space-15) }
+.mt15 { margin-top:    var(--space-15) }
+.mr15 { margin-right:  var(--space-15) }
+.mb15 { margin-bottom: var(--space-15) }
+.ml15 { margin-left:   var(--space-15) }
+
+.m20  { margin:        var(--space-20) }
+.mt20 { margin-top:    var(--space-20) }
+.mr20 { margin-right:  var(--space-20) }
+.mb20 { margin-bottom: var(--space-20) }
+.ml20 { margin-left:   var(--space-20) }
+
+.m25  { margin:        var(--space-25) }
+.mt25 { margin-top:    var(--space-25) }
+.mr25 { margin-right:  var(--space-25) }
+.mb25 { margin-bottom: var(--space-25) }
+.ml25 { margin-left:   var(--space-25) }
+
+
+.p5  { padding:       var(--space-5) }
+.py5 { padding-top:   var(--space-5); padding-bottom: var(--space-5) }
+.px5 { padding-left:  var(--space-5); padding-right:  var(--space-5) }
+
+.p10  { padding:       var(--space-10) }
+.py10 { padding-top:   var(--space-10); padding-bottom: var(--space-10) }
+.px10 { padding-left:  var(--space-10); padding-right:  var(--space-10) }
+
+.p15  { padding:       var(--space-15) }
+.py15 { padding-top:   var(--space-15); padding-bottom: var(--space-15) }
+.px15 { padding-left:  var(--space-15); padding-right:  var(--space-15) }
+
+.p20  { padding:       var(--space-20) }
+.py20 { padding-top:   var(--space-20); padding-bottom: var(--space-20) }
+.px20 { padding-left:  var(--space-20); padding-right:  var(--space-20) }
+
+
+.p25  { padding:       var(--space-25) }
+.py25 { padding-top:   var(--space-25); padding-bottom: var(--space-25) }
+.px25 { padding-left:  var(--space-25); padding-right:  var(--space-25) }
