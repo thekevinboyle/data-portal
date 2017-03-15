@@ -1044,29 +1044,29 @@ p{
 h1{
   font-size:29px;
   font-weight:500;
-  letter-spacing:-0.8px;
+  letter-spacing:0;
   line-height:33px;
 }
 
 h2{
   font-size:24px;
   font-weight:500;
-  letter-spacing:-0.6px;
+  letter-spacing:0;
   line-height:27px;
 }
 
 h3{
   font-size:20px;
   font-weight:300;
-  letter-spacing:-0.4px;
+  letter-spacing:0;
   line-height:22px;
 }
 
 h4{
   font-size:17px;
   font-weight:300;
-  letter-spacing:-0.2px;
-  line-height:19px;
+  letter-spacing:0;
+  line-height:17px;
 }
 
 h5{
@@ -1114,6 +1114,86 @@ h6{
   height:41px;
   margin:.5rem;
 }
+
+.m5{ margin:5px }
+
+.mt5{ margin-top:5px }
+
+.mr5{ margin-right:5px }
+
+.mb5{ margin-bottom:5px }
+
+.ml5{ margin-left:5px }
+
+.m10{ margin:10px }
+
+.mt10{ margin-top:10px }
+
+.mr10{ margin-right:10px }
+
+.mb10{ margin-bottom:10px }
+
+.ml10{ margin-left:10px }
+
+.m15{ margin:15px }
+
+.mt15{ margin-top:15px }
+
+.mr15{ margin-right:15px }
+
+.mb15{ margin-bottom:15px }
+
+.ml15{ margin-left:15px }
+
+.m20{ margin:20px }
+
+.mt20{ margin-top:20px }
+
+.mr20{ margin-right:20px }
+
+.mb20{ margin-bottom:20px }
+
+.ml20{ margin-left:20px }
+
+.m25{ margin:25px }
+
+.mt25{ margin-top:25px }
+
+.mr25{ margin-right:25px }
+
+.mb25{ margin-bottom:25px }
+
+.ml25{ margin-left:25px }
+
+.p5{ padding:5px }
+
+.py5{ padding-top:5px; padding-bottom:5px }
+
+.px5{ padding-left:5px; padding-right:5px }
+
+.p10{ padding:10px }
+
+.py10{ padding-top:10px; padding-bottom:10px }
+
+.px10{ padding-left:10px; padding-right:10px }
+
+.p15{ padding:15px }
+
+.py15{ padding-top:15px; padding-bottom:15px }
+
+.px15{ padding-left:15px; padding-right:15px }
+
+.p20{ padding:20px }
+
+.py20{ padding-top:20px; padding-bottom:20px }
+
+.px20{ padding-left:20px; padding-right:20px }
+
+.p25{ padding:25px }
+
+.py25{ padding-top:25px; padding-bottom:25px }
+
+.px25{ padding-left:25px; padding-right:25px }
 
 .container-master, .container-primary, .container-sidebar{
   transition:all .25s ease-in-out;
@@ -1354,6 +1434,8 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2180fc', endC
   height:50px;
   border-radius:5px;
   min-width:150px;
+font-size:17px;
+font-weight:300;
 }
 
 .rad-gradient{
