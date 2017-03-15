@@ -1,5 +1,6 @@
 .portal-hero {
-min-height: 780px;
+  margin-top: 22vh;
+  margin-bottom: 22vh;
 }
 
 .portal-sidebar {
@@ -74,10 +75,9 @@ min-height: 780px;
 }
 
 .portal-stats {
-  max-width: 970px;
-  min-height: 400px;
+  min-width: 970px;
   position: relative;
-  top: -60px;
+  margin-top: -60px;
 }
 
 /* ------------------------- */

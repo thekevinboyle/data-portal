@@ -1089,6 +1089,10 @@ h6{
   min-height:100vh;
 }
 
+.vh-50{
+  min-height:50vh;
+}
+
 .vw-100{
   min-width:100vw;
 }
@@ -1305,7 +1309,8 @@ h6{
 }
 
 .portal-hero{
-min-height:780px;
+  margin-top:22vh;
+  margin-bottom:22vh;
 }
 
 .portal-sidebar{
@@ -1392,10 +1397,9 @@ min-height:780px;
 }
 
 .portal-stats{
-  max-width:970px;
-  min-height:400px;
+  min-width:970px;
   position:relative;
-  top:-60px;
+  margin-top:-60px;
 }
 
 .flourish{
@@ -1993,10 +1997,6 @@ a:hover{
   border:transparent;
   height:2px;
   width:25px;
-}
-
-.border-subtle{
-  border:1px solid #d9d9d8;
 }
 
 .bg-light{
