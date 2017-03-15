@@ -7,7 +7,7 @@
   --gray-dark: #303B3E;
   --gray-medium: #a6a6a6;
   --gray-light: #d9d9d8;
-  --gray-lightest: #6E7577;
+  --gray-lightest: #ECEFF1;
   --slate: #59768c;
   --slate-dark: #234055;
   --slate-light: #9ab2c5;
@@ -47,6 +47,10 @@ color: var(--gray-dark);
 .bg-gray { background-color: #AAAAAA; }
 .bg-silver { background-color: #DDDDDD; }
 .bg-black { background-color: #111111; }
+.bg-gray-lightest {
+
+background-color: var(--gray-lightest);
+}
 
 .bg-orange-red {
   background-color: #F15C17;

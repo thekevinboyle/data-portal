@@ -1304,6 +1304,10 @@ h6{
   margin:0 auto;
 }
 
+.portal-hero{
+min-height:780px;
+}
+
 .portal-sidebar{
   min-width:300px;
   z-index:2;
@@ -1546,7 +1550,7 @@ color:#303B3E;
 }
 
 .gray-lightest{
-  color:#6E7577;
+  color:#ECEFF1;
 }
 
 .bg-navy{ background-color:#001F3F; }
@@ -1582,6 +1586,11 @@ color:#303B3E;
 .bg-silver{ background-color:#DDDDDD; }
 
 .bg-black{ background-color:#111111; }
+
+.bg-gray-lightest{
+
+background-color:#ECEFF1;
+}
 
 .bg-orange-red{
   background-color:#F15C17;
@@ -1759,6 +1768,11 @@ color:#0A96FD;
 
 .shadow-sidebar{
 box-shadow:4px 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.shadow-stats{
+box-shadow:0 3px 20px 0 rgba(0,0,0,0.05);
+border-radius:5px;
 }
 
 [data-tooltip], .tooltip{

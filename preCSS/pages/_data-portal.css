@@ -1,3 +1,7 @@
+.portal-hero {
+min-height: 780px;
+}
+
 .portal-sidebar {
   min-width: 300px;
   z-index: 2;
