@@ -1,169 +1,172 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Radius Data Portal</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <script src="https://use.typekit.net/npl1anw.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <!-- <link rel="stylesheet" href="css/basscss.css"> -->
-  <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-  <link href="dest/stylesheets/main.css" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Radius Data Portal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://use.typekit.net/npl1anw.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- <link rel="stylesheet" href="css/basscss.css"> -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link href="dest/stylesheets/main.css" rel="stylesheet">
+  </head>
 
-<body class="state--sidebar-open">
-  <div class="container-master bg-light">
+  <body class="state--sidebar-open">
+    <div class="container-master bg-light">
 
       <main class="container-primary">
 
         <!-- Data Table -->
-        <div class="row pt2">
-          <form class="flex flex-auto mb4">
+        <div class="row table-container">
+          <form class="flex flex-auto py25">
             <label for="search" class="hide">Search</label>
             <input id="search" type="text" placeholder="Search" class="fieldx flex-auto input-search input-search--large">
           </form>
 
+          <!-- Search Results -->
+          <div class="ml25 mb50">
+            <p class="muted">Here are 10 of 12,748 Radius records for</p>
+          </div>
+          <!-- End Search Results -->
+
+          <!-- Data Table -->
+
+
+          <table class="overflow-scroll data-table detail py25" id="">
+            <thead>
+              <tr>
+                <th class="row-1 row-company p-sm">Company</th>
+                <th class="row-2 row-contact p0 sm-col sm-col-3 p-sm">Contact</th>
+                <th class="row-3 row-description p0 sm-col sm-col-3 p-sm">Description</th>
+                <th class="row-4 row-code p0 sm-col sm-col-3 p-sm">Code</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr class="parent" id="row123" title="" style="cursor: pointer;">
+                <td class="p-sm">Western Union</td>
+                <td class="p-sm">Jenny Spicer</td>
+                <td class="p-sm">Finance and Insurance</td>
+                <td class="p-sm"><i class="caret right"></i>100000010</td>
+              </td>
+            </tr>
+
+            <tr class="child-row123" style="display: none;">
+              <td class="p-sm">Western Union</td>
+              <td class="p-sm">Jenny Spicer</td>
+              <td class="p-sm">Finance and Insurance</td>
+              <td class="p-sm">100000010<span class="caret right"></span></td>
+            </tr>
+
+          </tbody>
+        </table>
+
+
+
+      </div>
+
+      <!-- Download Records Section -->
+
+      <div class="row mb2 table-download rounded">
+        <div class="bb-muted mb25 bg-red"></div>
+        <form class="flex flex-center mx-auto">
+          <label class="hide" for="search">Enter Amount</label>
+          <div class="mr-auto">
+            <p class="m0 subtitle"><span class="bold">500 records available to download.</span> How many records do you want? </p>
+          </div>
           <div class="">
-            <p class="muted">Showing 10 of Samples of 8,550 results multiple</p>
+            <input class="white field input-default mr2" id="search" type="text" placeholder=" Enter Amount" >
+
+            <button class="btn btn-primary cta-portal">Download</button>
           </div>
+        </form>
+      </div>
+    </main>
 
-          <div class="clearfix">
+    <!-- Side bar -->
+    <nav class="container-sidebar xportal-sidebar shadow-sidebar bg-white">
+      <div class="sidebar-gradient"></div>
 
-          </div>
-
-          <div class="overflow-scroll">
-
-            <table class="detail rounded table-shadow bg-white p2 mb2" id="">
-              <thead>
-                <tr>
-                  <th class="p-sm">Company</th> <th class="p-sm">Contact</th> <th class="p-sm">NAICS Description</th> <th class="p-sm">NAICS Code</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="parent" id="row123" title="" style="cursor: pointer;">
-                  <td class=" sm-col sm-col-3 p-sm">Western Union</td>
-                  <td class=" sm-col sm-col-3 p-sm">Jenny Spicer</td>
-                  <td class=" sm-col sm-col-3 p-sm">Finance and Insurance</td>
-                  <td class=" sm-col sm-col-3 p-sm">100000010<span class="caret right"></span>
-                  </td>
-
-                </tr>
-
-                <tr class="child-row123" style="display: none;">
-                  <td class=" sm-col sm-col-3 p-sm">Western Union</td>
-                  <td class=" sm-col sm-col-3 p-sm">Jenny Spicer</td>
-                  <td class=" sm-col sm-col-3 p-sm">Finance and Insurance</td>
-                  <td class=" sm-col sm-col-3 p-sm">100000010</td>
-                </tr>
-
-              </tbody>
-            </table>
-          </div>
+      <div class="m0 p0">
+        <figure class="ml3  mt3 mb3">
+          <img src="img/radius-logo.svg" class="rad-logo" alt="">
+        </figure>
+      </div>
+      <div class="mb4 ">
+        <div class="mb2 px3">
+          <h4 class="m0 p0">Welcome,</h4>
+          <h4 class="mt0 mb2 p0">Capital One</h4>
+          <div class="flourish"></div>
         </div>
 
-        <!-- Download Records Section -->
-        <div class="clearfix p2">
+        <div class="px3">
+          <p class="bold mb1 p-sm">Token ID</p>
+          <p class="mb2">12848934 (Expires in 23 hours)</p>
+          <div class="bb-muted mb2"></div>
+        </div>
+        <div class="px3">
+          <p class="p-sm bold mb1">Records Available For Download</p>
 
-          <div class="row mb2 form-download rounded p3">
-            <form class="flex flex-center mx-auto">
-              <label class="hide" for="search">Enter Amount</label>
-              <div class="mr-auto">
-                <p class="m0">500 Downloads remaining</p>
-              </div>
-              <div class="">
-                <input class="white field input-default mr2" id="search" type="text" placeholder=" Enter Amount" >
-
-                <button class="btn btn-primary cta-portal">Download</button>
-              </div>
-            </form>
-          </div>
+          <p class="mb2"><span class="orange-red">500 Remaining</span> (0 used) </p>
+          <div class="bb-muted mb2"></div>
         </div>
 
-      </main>
+        <div class="px3">
+          <p class="p-sm bold pb1 m0">Radius Contact</p>
 
-      <!-- Side bar -->
-      <nav class="container-sidebar xportal-sidebar shadow-sidebar bg-white">
-        <div class="sidebar-gradient"></div>
-
-        <div class="m0 p0">
-          <figure class="ml3  mt3 mb3">
-            <img src="img/radius-logo.svg" class="rad-logo" alt="">
-          </figure>
+          <p class="m0 h5 muted">Wes Heavner</p>
+          <a href="#" class="m0 blue">wes@radius.com</a>
+          <p class="h6">512-123-4567</p>
+          <div class="mb3"></div>
         </div>
-        <div class="mb4 ">
-          <div class="mb2 px3">
-            <h4 class="m0 p0">Welcome,</h4>
-            <h4 class="mt0 mb2 p0">Capital One</h4>
-            <div class="flourish"></div>
-          </div>
+      </div>
 
-          <div class="px3">
-            <p class="bold mb1">Token ID</p>
-            <p class="mb2">12848934 (Expires in 23 hours)</p>
-            <div class="bb-muted mb2"></div>
-          </div>
-          <div class="px3">
-            <p class="bold mb1">Records Available For Download</p>
+      <div class="px3 pt4 mb1">
+        <p class="mb1 h6 bold p-sm">3rd Party Analysis Downloads</p>
+      </div>
 
-              <p class="mb2"><span class="orange-red">500 Remaining</span> (0 used) </p>
-              <div class="bb-muted mb2"></div>
-            </div>
-
-            <div class="px3">
-              <p class="p-sm bold pb1 m0">Radius Contact</p>
-
-              <p class="m0 p">Wes Heavner</p>
-              <a href="#" class="m0 blue">wes@radius.com</a>
-              <p class="h6">512-123-4567</p>
-              <div class="mb3"></div>
+      <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+        <a href="#">
+          <div class="ml1 flex flex-center p1">
+            <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
+            <div class="flex-auto">
+              <p class="m0 muted overflow-hidden">Equifax Analysis</p>
             </div>
           </div>
-
-          <div class="px3 pt4 mb1">
-            <p class="mb1 h6 bold">3rd Party Analysis Downloads</p>
+        </a>
+      </div>
+      <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+        <a href="#">
+          <div class="ml1 flex flex-center p1">
+            <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
+            <div class="flex-auto">
+              <p class="m0 muted">Equifax Analysis</p>
+            </div>
           </div>
-
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a href="#">
-              <div class="ml1 flex flex-center p1">
-                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 gray overflow-hidden">Equifax Analysis</p>
-                </div>
-              </div>
-            </a>
+        </a>
+      </div>
+      <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+        <a href="#">
+          <div class="ml1 flex flex-center p1">
+            <img src="img/icon-download.svg" width="20" height="30" class="muted-icon flex-none flex-last mr2" />
+            <div class="flex-auto">
+              <p class="m0 gray muted">Equifax Analysis</p>
+            </div>
           </div>
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a href="#">
-              <div class="ml1 flex flex-center p1">
-                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 gray">Equifax Analysis</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a href="#">
-              <div class="ml1 flex flex-center p1">
-                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 gray">Equifax Analysis</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </nav>
+        </a>
+      </div>
+    </nav>
 
 
 
-      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-      <script src="js/Jexpand.js"></script>
-      <script src="js/rellax.js"></script>
-      <script>
-        // Accepts any class name
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/Jexpand.js"></script>
+    <script src="js/rellax.js"></script>
+    <script>
+      // Accepts any class name
   var rellax = new Rellax('.rellax');
 </script>
 </body>

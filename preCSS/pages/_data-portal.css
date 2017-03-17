@@ -1,8 +1,11 @@
 .portal-hero {
-  margin-top: 22vh;
-  margin-bottom: 22vh;
+  padding-top: 22vh;
+  padding-bottom: 22vh;
 }
 
+.transparent {
+  background: transparent;
+}
 .portal-sidebar {
   min-width: 300px;
   z-index: 2;
@@ -67,11 +70,18 @@
   width: 200px;
 }
 
-.form-download {
-  background-color: #ECEFF1;
-  box-shadow: 0 1px 2px 0 #D9DEE2;
-  border: 1px solid #D9DEE2;
-  border-radius: 5px;
+.table-download {
+  /* background-color: #ECEFF1; */
+  /* box-shadow: 0 1px 2px 0 #D9DEE2; */
+  margin-top: 30px;
+  border-top: 2px solid #D9DEE2;
+  position: sticky;
+  left: 0 ; right: 0; bottom: 0;
+}
+
+.table-container {
+  max-height: 600px;
+  overflow: scroll;
 }
 
 .portal-stats {
@@ -120,20 +130,13 @@
 /* ------------------------- */
 
 .caret {
-  position: relative;
-  cursor: pointer;
-}
-
-.caret:after {
+  background: url("../../img/caret-right.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 14px auto;
   content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-left: 12px;
-  border-top: 11px solid transparent;
-  border-bottom: 11px solid transparent;
-  border-left: 11px solid black;
-
+width: 7px;
+height: 12.25px;
 }
 
 .gradient-intro {
@@ -200,3 +203,8 @@
   border-bottom: 1px solid #D9DEE2;
 }
 
+
+.icon-error {
+  max-width: 28px;
+  max-height: 28px;
+}

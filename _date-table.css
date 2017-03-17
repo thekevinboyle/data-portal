@@ -1,0 +1,44 @@
+.data-table {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* Column widths are based on these cells */
+
+.row-company {
+  width: 185px;
+}
+
+.row-contact {
+  width: 66px;
+}
+
+.row-description {
+  width: 302px;
+}
+
+.row-code {
+  width: 75px;
+}
+
+.data-table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.data-table th {
+  background: darkblue;
+  color: white;
+}
+
+.data-table td,
+.data-table th {
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.data-table tr:nth-child(even) {
+  background: lightblue;
+}

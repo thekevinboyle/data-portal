@@ -5,11 +5,17 @@
 }
 
 .table-shadow {
-  border: 1px solid #D9DEE2;
+  border: 0 solid #D9DEE2;
   border-radius: 5px;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+}
+
+.shadow-input {
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.4);
 }
 
 .shadow-subtle {
@@ -27,10 +33,9 @@
 }
 
 .shadow-sidebar {
-box-shadow: 4px 0 10px 0 rgba(0,0,0,0.1);
+  box-shadow: 4px 0 10px 0 rgba(0,0,0,0.1);
 }
 
 .shadow-stats {
-box-shadow: 0 3px 20px 0 rgba(0,0,0,0.05);
-border-radius: 5px;
+  box-shadow: 0 3px 20px 0 rgba(0,0,0,0.05);
 }
