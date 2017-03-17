@@ -1,4 +1,10 @@
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+
 :root {
+
   --font-family: 'aktiv-grotesk', Helvetica, sans-serif;
   /* --line-height: 1.5; */
   /* --heading-font-family: var(--font-family); */
@@ -102,5 +108,5 @@
   /*  */
   /* --border-width: 1px; */
   --border-radius: 5px;
-  --border-color: #D9DEE2;;
+  --border-color: #D9DEE2;
 }

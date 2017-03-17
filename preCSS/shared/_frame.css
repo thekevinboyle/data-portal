@@ -14,7 +14,7 @@
   flex-basis: 100%;
 }
   .state--sidebar-open .container-primary {
-    flex-basis: 90%;
+    flex-basis: 100%;
   }
 
 .container-sidebar {
