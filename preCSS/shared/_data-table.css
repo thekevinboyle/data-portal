@@ -1,0 +1,48 @@
+.data-table {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* Column widths are based on these cells */
+.row-company {
+  padding: 0;
+  margin: 0;
+  width: 185px;
+}
+
+.row-contact {
+  width: 66px;
+}
+
+.row-description {
+  width: 302px;
+}
+
+.row-code {
+  width: 75px;
+}
+
+.data-table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.data-table th {
+
+}
+
+.data-table td,
+.data-table th {
+padding: var(--table-cell-padding-y) var(--table-cell-padding-x);
+  line-height: inherit;
+  text-align: left;
+}
+
+.data-table td {
+  border-radius: 5px;
+}
+.data-table tr:nth-child(even) {
+  /* background: var(--gray-lightest); */
+}

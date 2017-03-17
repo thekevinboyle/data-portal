@@ -24,7 +24,7 @@
 
 /* Type Weight */
   --p-font-weight: 400;
-  --p-sm-font-weight: 400;
+  --p-sm-font-weight: 500;
   --uber-font-weight: 500;
   --h1-font-weight: 500;
   --h2-font-weight: 500;
@@ -82,10 +82,10 @@
   --space-35: 35px;
   --space-40: 40px;
   --space-50: 50px;
-  /* --form-field-font-size: 1rem; */
-  /* --form-field-height: 2.25rem; */
-  /* --form-field-padding-y: .5rem; */
-  /* --form-field-padding-x: 2rem; */
+  --form-field-font-size: 1rem;
+  --form-field-height: 2.25rem;
+  --form-field-padding-y: 25px;
+  --form-field-padding-x: 25px;
   /* --button-font-size: inherit; */
   /* --button-font-weight: bold; */
   /* --button-line-height: 1.125rem; */
@@ -105,5 +105,5 @@
   /*  */
   /* --border-width: 1px; */
   --border-radius: 5px;
-  /* --border-color: var(--darken-2); */
+  --border-color: #D9DEE2;;
 }

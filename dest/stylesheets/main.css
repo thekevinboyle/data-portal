@@ -24,14 +24,14 @@ label{
 
 input[type=text], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week]{
   height:2.25rem;
-  padding:.5rem .5rem;
+  padding:25px 25px;
   vertical-align:middle;
   -webkit-appearance:none;
 }
 
 select{
   line-height:1.75;
-  padding:.5rem .5rem;
+  padding:25px 25px;
 }
 
 select:not([multiple]){
@@ -41,7 +41,7 @@ select:not([multiple]){
 
 textarea{
   line-height:1.75;
-  padding:.5rem .5rem;
+  padding:25px 25px;
 }
 
 table{
@@ -135,13 +135,13 @@ hr{
   border:0;
   border-bottom-style:solid;
   border-bottom-width:1px;
-  border-bottom-color:rgba(0, 0, 0, .125);
+  border-bottom-color:#D9DEE2;
 }
 
 .field{
   border-style:solid;
   border-width:1px;
-  border-color:rgba(0, 0, 0, .125);
+  border-color:#D9DEE2;
   border-radius:5px;
 }
 
@@ -191,7 +191,7 @@ hr{
 .table-light th, .table-light td{
   border-bottom-width:1px;
   border-bottom-style:solid;
-  border-bottom-color:rgba(0, 0, 0, .125);
+  border-bottom-color:#D9DEE2;
 }
 
 .table-light tr:last-child td{
@@ -999,7 +999,7 @@ hr{
 
 .bg-maroon{ background-color:#85144B }
 
-:root{
+:root{;
 }
 
 .uber{
@@ -1030,7 +1030,7 @@ p{
 
 .p-sm{
   font-size:12px;
-  font-weight:400;
+  font-weight:500;
   letter-spacing:0;
   line-height:19px;
 }
@@ -1375,8 +1375,12 @@ h6{
 }
 
 .portal-hero{
-  margin-top:22vh;
-  margin-bottom:22vh;
+  padding-top:22vh;
+  padding-bottom:22vh;
+}
+
+.transparent{
+  background:transparent;
 }
 
 .portal-sidebar{
@@ -1455,11 +1459,17 @@ h6{
   width:200px;
 }
 
-.form-download{
-  background-color:#ECEFF1;
-  box-shadow:0 1px 2px 0 #D9DEE2;
-  border:1px solid #D9DEE2;
-  border-radius:5px;
+.table-download{
+  margin-top:30px;
+  border-top:2px solid #D9DEE2;
+  position:-webkit-sticky;
+  position:sticky;
+  left:0; right:0; bottom:0;
+}
+
+.table-container{
+  max-height:600px;
+  overflow:scroll;
 }
 
 .portal-stats{
@@ -1497,20 +1507,13 @@ h6{
 }
 
 .caret{
-  position:relative;
-  cursor:pointer;
-}
-
-.caret:after{
+  background:url("../../img/caret-right.svg");
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:14px auto;
   content:'';
-  position:absolute;
-  top:0;
-  right:0;
-  margin-left:12px;
-  border-top:11px solid transparent;
-  border-bottom:11px solid transparent;
-  border-left:11px solid black;
-
+width:7px;
+height:12.25px;
 }
 
 .gradient-intro{
@@ -1543,6 +1546,11 @@ h6{
 
 .bb-muted{
   border-bottom:1px solid #D9DEE2;
+}
+
+.icon-error{
+  max-width:28px;
+  max-height:28px;
 }
 
 .cta-inset{
@@ -1621,8 +1629,28 @@ background:linear-gradient(180deg, #003247 0%, #04054C 100%);
 :root{
 }
 
+.muted-icon{
+    color:#C4CACE;
+}
+
+.muted{
+color:#6E7577;
+}
+
+.bg-muted{
+background-color:#6E7577;
+}
+
 .gray-dark{
 color:#303B3E;
+}
+
+.gray-darkest{
+color:#303B3E;
+}
+
+.bg-gray-darkest{
+background-color:#303B3E;
 }
 
 .gray-lightest{
@@ -1827,9 +1855,13 @@ color:#0A96FD;
 }
 
 .table-shadow{
-  border:1px solid #D9DEE2;
+  border:0 solid #D9DEE2;
   border-radius:5px;
-  box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+  box-shadow:0 1px 3px 0 rgba(0,0,0,0.1);
+}
+
+.shadow-input{
+  box-shadow:0 5px 15px 0 rgba(0,0,0,0.4);
 }
 
 .shadow-subtle{
@@ -1843,12 +1875,11 @@ color:#0A96FD;
 }
 
 .shadow-sidebar{
-box-shadow:4px 0 10px 0 rgba(0,0,0,0.1);
+  box-shadow:4px 0 10px 0 rgba(0,0,0,0.1);
 }
 
 .shadow-stats{
-box-shadow:0 3px 20px 0 rgba(0,0,0,0.05);
-border-radius:5px;
+  box-shadow:0 3px 20px 0 rgba(0,0,0,0.05);
 }
 
 [data-tooltip], .tooltip{
@@ -1996,6 +2027,53 @@ border-radius:5px;
   margin-bottom:-16px;
 }
 
+.data-table{
+  table-layout:fixed;
+  width:100%;
+  white-space:nowrap;
+}
+
+.row-company{
+  padding:0;
+  margin:0;
+  width:185px;
+}
+
+.row-contact{
+  width:66px;
+}
+
+.row-description{
+  width:302px;
+}
+
+.row-code{
+  width:75px;
+}
+
+.data-table td{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.data-table th{
+
+}
+
+.data-table td, .data-table th{
+padding:.25rem 1rem;
+  line-height:inherit;
+  text-align:left;
+}
+
+.data-table td{
+  border-radius:5px;
+}
+
+.data-table tr:nth-child(even){
+}
+
 html{
   box-sizing:border-box;
 }
@@ -2033,11 +2111,12 @@ a:hover{
   background-size:cover;
   background-position:center center;
   border:0;
-  display:inline-block;
   max-height:22px;
   width:100%;
   margin-left:0;
   padding-left:0;
+  position:relative;
+  top:-200px;
 }
 
 .rad-logo-r{
@@ -2073,25 +2152,5 @@ a:hover{
 
 .bg-light{
   background-color:rgba(248, 249, 250, 1.0);
-}
-
-ul li{
-  display:inline;
-}
-
-#expand{
-  height:0px;
-  overflow:hidden;
-  transition:height 0.25s;
-  color:#262626;
-  padding:0;
-  margin:0;
-}
-
-#toggle:checked ~ #expand{
-  height:35px;
-}
-
-#toggle:checked ~ label li:last-child::after{
 }
 
