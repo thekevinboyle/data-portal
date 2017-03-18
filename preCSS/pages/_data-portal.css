@@ -81,7 +81,7 @@
   /* box-shadow: 0 1px 2px 0 #D9DEE2; */
   margin-top: 30px;
   border-top: 2px solid #D9DEE2;
-  position: sticky;
+  position: fixed;
   left: 0 ; right: 0; bottom: 0;
 }
 
@@ -243,6 +243,6 @@ input[type=week] {
 }
 
 .sidebar-download {
-  position: absolute;
+  position: relative;
   bottom: 30px;
 }

@@ -1023,14 +1023,14 @@ hr{
 
 p{
   font-size:14px;
-  font-weight:400;
+  font-weight:300;
   letter-spacing:0;
   line-height:19px;
 }
 
 .p-sm{
   font-size:12px;
-  font-weight:500;
+  font-weight:400;
   letter-spacing:0;
   line-height:19px;
 }
@@ -1466,8 +1466,7 @@ h6{
 .table-download{
   margin-top:30px;
   border-top:2px solid #D9DEE2;
-  position:-webkit-sticky;
-  position:sticky;
+  position:fixed;
   left:0; right:0; bottom:0;
 }
 
@@ -1566,7 +1565,7 @@ input[type=text], input[type=date], input[type=datetime], input[type=datetime-lo
 }
 
 .sidebar-download{
-  position:absolute;
+  position:relative;
   bottom:30px;
 }
 
@@ -1872,9 +1871,9 @@ color:#0A96FD;
 }
 
 .table-shadow{
-  border:0 solid #D9DEE2;
+  border:0;
   border-radius:5px;
-  box-shadow:0 1px 3px 0 rgba(0,0,0,0.1);
+box-shadow:0 1px 3px 0 rgba(0,0,0,0.1);
 }
 
 .shadow-input{
@@ -2053,15 +2052,15 @@ color:#0A96FD;
 .row-company{
   padding:0;
   margin:0;
-  width:185px;
+  width:290px;
 }
 
 .row-contact{
-  width:66px;
+  width:160px;
 }
 
 .row-description{
-  width:302px;
+  width:335px;
 }
 
 .row-code{
@@ -2091,6 +2090,54 @@ padding:.25rem 1rem;
 .data-table tr:nth-child(even){
 }
 
+/*!
+ * jQuery Accordion 0.0.1
+ * (c) 2014 Victor Fernandez <victor@vctrfrnndz.com>
+ * MIT Licensed.
+ */
+
+[data-accordion] [data-content]{
+    overflow:hidden;
+    max-height:0;
+}
+
+[data-accordion]{
+    line-height:1;
+}
+
+[data-control], [data-content] > *{
+}
+
+[data-content] [data-accordion]{
+    border:0;
+    padding:0;
+}
+
+[data-accordion] [data-control]{
+    position:relative;
+}
+
+[data-accordion] > [data-control]:after{
+    content:"";
+    position:absolute;
+    right:10px;
+    top:3px;
+    font-size:25px;
+    color:#444;
+    height:15px;
+    width:24px;
+    background:url('../../img/caret-right.svg') center center no-repeat;
+    background-size:50%;
+    transition:all 0.25s;
+}
+
+[data-accordion].open > [data-control]:after{
+    -webkit-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    transition:all 0.25s;
+}
+
 html{
   box-sizing:border-box;
 }
@@ -2101,6 +2148,10 @@ html{
 
 body{
   color:#303B3E;
+}
+
+button:focus{
+  outline:none;
 }
 
 a, a:active, a:visited{
