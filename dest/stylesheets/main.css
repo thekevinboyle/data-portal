@@ -1375,12 +1375,18 @@ h6{
 }
 
 .portal-hero{
-  padding-top:22vh;
-  padding-bottom:22vh;
+  min-height:500px;
 }
 
-.transparent{
-  background:transparent;
+.portal-hero-copy{
+  position:relative;
+  margin-top:195px;
+}
+
+.portal-stats{
+  min-width:970px;
+  position:relative;
+  top:-60px;
 }
 
 .portal-sidebar{
@@ -1389,9 +1395,8 @@ h6{
 }
 
 .portal-token{
-  border-radius:6px;
+  border-radius:5px;
   min-height:70px;
-  width:466px;
 }
 
 .input-search{
@@ -1441,7 +1446,6 @@ h6{
 }
 
 .portal-input{
-  width:466px;
   height:70px;
   background-color:#FFFFFF;
   box-shadow:0 6px 15px 0 rgba(0,0,0,0.3);
@@ -1470,12 +1474,6 @@ h6{
 .table-container{
   max-height:600px;
   overflow:scroll;
-}
-
-.portal-stats{
-  min-width:970px;
-  position:relative;
-  margin-top:-60px;
 }
 
 .flourish{
@@ -1529,12 +1527,7 @@ height:12.25px;
 .tooltip:after::hover{
 }
 
-*/ */ */ .sidebar-download{
-  position:absolute;
-  bottom:30px;
-}
-
-.sidebar-offer{
+*/ */ */ .sidebar-offer{
   text-decoration:none;
 }
 
@@ -1551,6 +1544,30 @@ height:12.25px;
 .icon-error{
   max-width:28px;
   max-height:28px;
+}
+
+input, select, textarea, fieldset{
+  font-family:inherit;
+  font-size:1rem;
+  box-sizing:border-box;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+label{
+  vertical-align:middle;
+}
+
+input[type=text], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week]{
+  height:2.25rem;
+  padding:25px 25px;
+  vertical-align:middle;
+  -webkit-appearance:none;
+}
+
+.sidebar-download{
+  position:absolute;
+  bottom:30px;
 }
 
 .cta-inset{
@@ -2116,7 +2133,7 @@ a:hover{
   margin-left:0;
   padding-left:0;
   position:relative;
-  top:-200px;
+  top:0;
 }
 
 .rad-logo-r{

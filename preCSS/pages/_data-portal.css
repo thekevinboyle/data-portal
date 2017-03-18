@@ -1,20 +1,26 @@
 .portal-hero {
-  padding-top: 22vh;
-  padding-bottom: 22vh;
+  min-height: 500px;
 }
 
-.transparent {
-  background: transparent;
+.portal-hero-copy {
+  position: relative;
+  margin-top: 195px;
 }
+
+.portal-stats {
+  min-width: 970px;
+  position: relative;
+  top: -60px;
+}
+
 .portal-sidebar {
   min-width: 300px;
   z-index: 2;
 }
 
 .portal-token {
-  border-radius: 6px;
+  border-radius: 5px;
   min-height: 70px;
-  width: 466px;
 }
 
 .input-search {
@@ -52,7 +58,7 @@
 }
 
 .portal-input {
-  width: 466px;
+  /* width: 466px; */
   height: 70px;
   background-color: #FFFFFF;
   box-shadow: 0 6px 15px 0 rgba(0,0,0,0.3);
@@ -84,11 +90,6 @@
   overflow: scroll;
 }
 
-.portal-stats {
-  min-width: 970px;
-  position: relative;
-  margin-top: -60px;
-}
 
 /* ------------------------- */
 /* Decos */
@@ -187,10 +188,6 @@ height: 12.25px;
 /*   visibility: visible; */
 /* } */
 
-.sidebar-download {
-  position: absolute;
-  bottom: 30px;
-}
 
 .sidebar-offer {
   text-decoration: none;
@@ -206,8 +203,46 @@ height: 12.25px;
   border-bottom: 1px solid #D9DEE2;
 }
 
-
 .icon-error {
   max-width: 28px;
   max-height: 28px;
+}
+
+input,
+select,
+textarea,
+fieldset {
+  font-family: var(--form-field-font-family);
+  font-size: var(--form-field-font-size);
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+label {
+  vertical-align: middle;
+}
+
+input[type=text],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  height: var(--form-field-height);
+  padding: var(--form-field-padding-y) var(--form-field-padding-x);
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+.sidebar-download {
+  position: absolute;
+  bottom: 30px;
 }

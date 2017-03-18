@@ -1,6 +1,6 @@
 /* Basscss Grid */
 
-@import 'basscss-defaults';
+/* @import 'basscss-defaults'; */
 
 @import "./lib/container";
 @import "./lib/grid";

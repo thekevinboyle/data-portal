@@ -63,7 +63,7 @@ a:hover {
   margin-left: 0;
   padding-left: 0;
   position: relative;
-  top: -200px;
+  top: 0;
 }
 .rad-logo-r {
   /* background: url("../../img/radius-logo-r.png") no-repeat; */
@@ -116,5 +116,6 @@ a:hover {
 /* ------------------------- */
 
 /* Expandable / Collapsible Rows */
+
 /* ------------------------- */
 
