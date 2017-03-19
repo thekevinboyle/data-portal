@@ -18,9 +18,23 @@
   z-index: 2;
 }
 
-.portal-token {
-  border-radius: 5px;
-  min-height: 70px;
+.input-token {
+  border-radius: var(--border-radius);
+  font-size: var(--h4);
+  font-weight: var(--thin);
+  min-height: 73px;
+  padding: var(--form-field-padding-y);
+}
+
+.input-token::placeholder {
+  /* padding-left: 20px; */
+}
+
+.input-search {
+  font-size: var(--h4);
+  font-weight: var(--thin);
+  height: 3.25rem;
+  padding-left: 60px;
 }
 
 .input-search {
@@ -57,6 +71,8 @@
 .input-default::placeholder {
   color: var(--muted);
 }
+
+
 .input-search::placeholder,
 .input-search--large::placeholder {
   font-size: var(--h4);
@@ -147,8 +163,8 @@
   background-position: center center;
   background-size: 14px auto;
   content: '';
-width: 7px;
-height: 12.25px;
+  width: 7px;
+  height: 12.25px;
 }
 
 .gradient-intro {
@@ -256,4 +272,9 @@ input[type=week] {
 .sidebar-download {
   position: relative;
   bottom: 30px;
+}
+
+.card-image {
+  max-width: 200px;
+  height: auto;
 }

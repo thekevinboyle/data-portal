@@ -73,53 +73,36 @@
 
   <!-- Cards -->
 
-  <div class="row mxn2">
+  <div class="row">
+    <div class="flex mxn2 ">
 
-    <div class="col col-4 px2">
-      <div class="overflow-hidden bg-gray-lightest shadow-card rounded">
-        <div class="p2">
-          <figure class="m0 card-image mx-auto">
-            <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="" />
-          </figure>
-        </div>
-        <div class="p25 bg-white flex flex-center flex-end mx-auto">
-          <p class="m0 subtitle flex-auto">American Express</p>
-          <img src="img/download-blue.svg" class="right" alt="">
-        </div>
-      </div>
-    </div>
-    <div class="col col-4 px2">
-      <div class="overflow-hidden bg-gray-lightest shadow-card rounded">
-        <div class="p2">
-          <figure class="m0 card-image mx-auto">
-            <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="" />
-          </figure>
-        </div>
-        <div class="p25 bg-white flex flex-center flex-end mx-auto">
-          <p class="m0 subtitle flex-auto">American Express</p>
-          <img src="img/download-blue.svg" class="right" alt="">
+      <div class="mx-auto flex shadow-card rounded  sm-col-4  border-box p2">
+        <div class=" bg-white rounded">
+          <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="256" height="100" />
+          <div class="flex-center p15 bg-blue">
+            <figure class="m0 p0 right">
+              <img src="img/download-blue.svg" alt="">
+            </figure>
+            <p class="subtitle mx-auto m0">Equifax</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col col-4 px2">
-      <div class="overflow-hidden bg-gray-lightest shadow-card rounded">
-        <div class="p2">
-          <figure class="m0 card-image mx-auto">
-            <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="" />
-          </figure>
+      <div class="mx-auto flex  sm-col-4  border-box p2">
+        <div class="p1 border rounded">
+          <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="256" height="auto" />
+          <p class="subtitle">American Express</p>
         </div>
-        <div class="p25 bg-white flex flex-center flex-end mx-auto">
-          <p class="m0 subtitle flex-auto">American Express</p>
-          <img src="img/download-blue.svg" class="right" alt="">
+      </div>
+      <div class="mx-auto flex  sm-col-4  border-box p2">
+        <div class="p1 border rounded">
+          <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="256" height="auto" />
+          <p class="subtitle">Sam's Club</p>
         </div>
       </div>
     </div>
 
 
   </div>
-
-
-</div>
 </div>
 </div>
 

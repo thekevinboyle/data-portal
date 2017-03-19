@@ -76,9 +76,6 @@
   --gradient-dark: linear-gradient(to right, #f4f8fa 0%, #dee8f0 100%);
 
 
-
-
-
   /* --bold-font-weight: bold; */
   --space-5: 5px;
   --space-10: 10px;
@@ -89,8 +86,11 @@
   --space-35: 35px;
   --space-40: 40px;
   --space-50: 50px;
+
   --form-field-font-size: 1rem;
-  --form-field-height: 2.25rem;
+  /* --form-field-height: 2.25rem; */
+  --form-field-height: 50px;
+  --form-field-height-lg: 73px;
   --form-field-padding-y: 25px;
   --form-field-padding-x: 25px;
   /* --button-font-size: inherit; */
