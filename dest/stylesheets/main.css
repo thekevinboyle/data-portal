@@ -1085,6 +1085,10 @@ h6{
   line-height:72px;
 }
 
+.thin{
+  font-weight:200;
+}
+
 .vh-100{
   min-height:100vh;
 }
@@ -1410,39 +1414,62 @@ h6{
   border-bottom:1px solid #d9dee2;
   content:'';
   font-size:17px;
+  font-weight:200;
   height:3.25rem;
   padding-left:60px;
 }
 
 .input-search--large{
   min-height:73px;
+  font-weight:200;
 }
 
 .input-default{
   border-radius:5px;
   border:0px solid #d9dee2;
   font-size:17px;
+  font-weight:200;
   min-height:50px;
+}
+
+.input-default::-webkit-input-placeholder{
+  color:#6E7577;
+}
+
+.input-default::-moz-placeholder{
+  color:#6E7577;
+}
+
+.input-default:-ms-input-placeholder{
+  color:#6E7577;
+}
+
+.input-default::placeholder{
+  color:#6E7577;
 }
 
 .input-search::-webkit-input-placeholder, .input-search--large::-webkit-input-placeholder{
   font-size:17px;
   padding-left:40px;
+  color:#6E7577;
 }
 
 .input-search::-moz-placeholder, .input-search--large::-moz-placeholder{
   font-size:17px;
   padding-left:40px;
+  color:#6E7577;
 }
 
 .input-search:-ms-input-placeholder, .input-search--large:-ms-input-placeholder{
   font-size:17px;
   padding-left:40px;
+  color:#6E7577;
 }
 
 .input-search::placeholder, .input-search--large::placeholder{
   font-size:17px;
   padding-left:40px;
+  color:#6E7577;
 }
 
 .portal-input{
@@ -1464,15 +1491,16 @@ h6{
 }
 
 .table-download{
+  background-color:rgba(248,249,250,1);
   margin-top:30px;
-  border-top:2px solid #D9DEE2;
-  position:fixed;
-  left:0; right:0; bottom:0;
-}
 
-.table-container{
-  max-height:600px;
-  overflow:scroll;
+  border-top:2px solid #D9DEE2;
+  position:-webkit-sticky;
+  position:sticky;
+  bottom:0;
+  min-height:200px;
+  z-index:9999;
+  max-width:980px;
 }
 
 .flourish{
