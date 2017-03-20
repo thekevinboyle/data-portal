@@ -78,6 +78,9 @@
   min-height: 50px;
 }
 
+.input-default--lg {
+  min-height: 73px;
+}
 .input-default::placeholder {
   color: var(--muted);
 }

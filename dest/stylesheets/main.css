@@ -1429,6 +1429,10 @@ h6{
   min-height:50px;
 }
 
+.input-default--lg{
+  min-height:73px;
+}
+
 .input-default::-webkit-input-placeholder{
   color:#6E7577;
 }
@@ -1913,6 +1917,10 @@ color:#0A96FD;
 
 .shadow{
   box-shadow:0px 0px 18px 4px rgba(0,0,0,0.20);
+}
+
+.shadow-default{
+  box-shadow:0px 3px 10px 0px rgba(0,0,0,0.05);
 }
 
 .table-shadow{
