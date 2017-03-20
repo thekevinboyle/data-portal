@@ -11,6 +11,7 @@
 @import 'shared/_shadow';
 @import 'shared/_tooltip';
 @import 'shared/_data-table';
+@import 'shared/_form';
 @import 'shared/_accordion';
 
 @custom-media --breakpoint-sm max-width:750px;

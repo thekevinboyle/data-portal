@@ -87,3 +87,6 @@ h6 {
 .thin {
   font-weight: var(--thin);
 }
+.normal {
+  font-weight: var(--normal);
+}

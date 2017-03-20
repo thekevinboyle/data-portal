@@ -1,0 +1,203 @@
+input,
+select,
+textarea,
+fieldset {
+  font-family: var(--form-field-font-family);
+  font-size: var(--form-field-font-size);
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+label {
+  vertical-align: middle;
+}
+
+input[type=text],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  height: var(--form-field-height);
+  padding: var(--form-field-padding-y) 50px;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  transition: box-shadow .25s ease;
+}
+
+input[type=text]:hover {
+  /* box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1); */
+  /* border: 1px solid #D9DEE2; */
+  outline: 0;
+  border-radius: 5px;
+  transition: box-shadow .25s ease;
+}
+
+.input-search {
+  /* background: url("../../img/search.svg"),url("../../img/exit.svg"); */
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 25px center, right 25px center ;
+  background-size: 14px auto, 14px auto;
+  /* border-radius: var(--border-radius); */
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #d9dee2;
+  /* box-shadow: 0 3px 8px 0 rgba(0,0,0,0.1); */
+  content: '';
+  font-size: var(--h4);
+  font-weight: var(--thin);
+  height: 3.25rem;
+  padding-left: 60px;
+  transition: all .25s ease;
+}
+
+.input-search--large:hover {
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
+  border: 1px solid #ECEFF1;
+  transition: box-shadow .25s ease;
+}
+
+.input-search--large:active {
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
+  border: 1px solid #D9DEE2;
+  transition: box-shadow .25s ease;
+}
+
+.input-default {
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.05);
+  font-size: var(--h4);
+  font-weight: var(--thin);
+  min-height: 50px;
+  transition: all .25s ease;
+}
+
+.input-default:hover {
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
+  border: 1px solid #ECEFF1;
+  transition: all .25s ease;
+}
+
+.input-default:active {
+  border: 1px solid #D9DEE2;
+  transition: box-shadow .25s ease;
+}
+
+.input-default:focus {
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+.input-default::placeholder {
+  color: #969DA3;
+}
+
+.input-default--lg {
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+box-shadow: 0 3px 10px 0 rgba(0,0,0,0.05);
+  font-size: var(--h3);
+  font-weight: var(--thin);
+  transition: box-shadow .25s ease;
+  min-height: 70px;
+  transition: all .25s ease;
+}
+
+.input-default--lg:hover {
+box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
+  border: 1px solid #ECEFF1;
+  transition: all .25s ease;
+}
+
+.input-default--lg:active {
+  border: 1px solid #D9DEE2;
+  transition: box-shadow .25s ease;
+}
+
+.input-default--lg:focus {
+box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+.input-default--lg::placeholder {
+  color: #969DA3;
+}
+
+.input-default--inline {
+  background: url("../../img/search.svg"),url("../../img/exit.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 25px center, right 25px center ;
+  background-size: 14px auto, 14px auto;
+  /* border-radius: var(--border-radius); */
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #D9DEE2;
+  /* box-shadow: 0 3px 8px 0 rgba(0,0,0,0.1); */
+  content: '';
+  font-size: var(--h3);
+  font-weight: var(--thin);
+  height: 70px;
+  padding-left: 60px;
+  transition: all .25s ease;
+  min-height: 70px;
+  transition: all .25s ease;
+}
+
+.input-default--inline:hover {
+}
+
+.input-default--inline:active {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
+  border: 1px solid #D9DEE2;
+  border-radius: var(--border-radius);
+  transition: all .25s ease;
+}
+
+.input-default--inline:focus {
+
+  border: 1px solid #D9DEE2;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
+}
+
+.input-default--lg::placeholder {
+  color: #969DA3;
+}
+
+
+.input-default--lg:hover {
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
+  border: 1px solid #ECEFF1;
+  transition: all .25s ease;
+}
+
+.input-default--lg:active {
+  border: 1px solid #D9DEE2;
+  transition: box-shadow .25s ease;
+}
+
+.input-default--lg:focus {
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+
+.input-default--lg::placeholder {
+  color: #969DA3;
+}
+
+.portal-input {
+  /* width: 466px; */
+  height: 70px;
+  background-color: #FFFFFF;
+  box-shadow: 0 6px 15px 0 rgba(0,0,0,0.3);
+  border-radius: var(--border-radius);
+  min-height: 70px;
+  transition: all .25s ease;
+}

@@ -40,7 +40,7 @@
   --h6-font-weight: 300;
   --subtitle-font-weight: 300;
   --thin: 200;
-
+  --normal: 400;
   /* Typography Line Height */
   --heading-line-height: 1.25;
   --uber-line-height: 48px;
@@ -54,7 +54,7 @@
   --p-sm-line-height: 14px;
   --taxonomy-line-height: 16px;
 
-/* Typography Letter Spacing */
+  /* Typography Letter Spacing */
   --uber-letter-spacing: 0;
   --h1-letter-spacing: 0;
   --h2-letter-spacing: 0;
