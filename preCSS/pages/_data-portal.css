@@ -62,6 +62,7 @@
   font-weight: var(--thin);
   height: 3.25rem;
   padding-left: 60px;
+  transition: all .25s ease;
 }
 
 .input-search--large {
@@ -94,8 +95,9 @@
   height: 70px;
   background-color: #FFFFFF;
   box-shadow: 0 6px 15px 0 rgba(0,0,0,0.3);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   min-height: 70px;
+  transition: all .25s ease;
 }
 
 .icon-download {
@@ -278,6 +280,14 @@ input[type=week] {
   padding: var(--form-field-padding-y) var(--form-field-padding-x);
   vertical-align: middle;
   -webkit-appearance: none;
+  transition: box-shadow .25s ease;
+}
+
+input[type=text]:hover {
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  transition: box-shadow .25s ease;
 }
 
 .sidebar-download {
