@@ -19,7 +19,7 @@
       <main class="container-primary">
 
 
-        <div class="row table-container">
+        <div class="row table-container overflow-scroll">
           <form class="flex flex-auto py25">
             <label for="search" class="hide">Search</label>
             <input id="search" type="text" placeholder="Search" class="fieldx flex-auto input-search input-search--large">
@@ -34,7 +34,7 @@
           <!-- Data Table -->
 
           <section class="ml30 mb5">
-            <ul class="list-reset mxn1 mb0">
+            <ul class="list-reset mb0">
               <li class="inline-block row-company p-sm gray-dark">Company</li>
               <li class="inline-block row-contact p-sm gray-dark">Contact</li>
               <li class="inline-block row-description p-sm gray-dark">NAICS Description</li>
@@ -44,7 +44,7 @@
 
           <!-- Data Table Rows -->
 <section class="bg-white table-shadow rounded px20 py25 mb10" id="single" data-accordion>
-            <ul class="list-reset mxn1 mb0" data-control>
+            <ul class="list-reset mb0" data-control>
               <li class="inline-block row-company p">Regions Financial Corp.</li>
               <li class="inline-block row-contact p">Elva Parks</li>
               <li class="inline-block row-description p">Not Securities, Commodity Contracts, And…</li>
@@ -62,7 +62,7 @@
               </ul>
             </div>
           </section><section class="bg-white table-shadow rounded px20 py25 mb10" id="single" data-accordion>
-            <ul class="list-reset mxn1 mb0" data-control>
+            <ul class="list-reset  mb0" data-control>
               <li class="inline-block row-company p">Regions Financial Corp.</li>
               <li class="inline-block row-contact p">Elva Parks</li>
               <li class="inline-block row-description p">Not Securities, Commodity Contracts, And…</li>
@@ -80,7 +80,7 @@
               </ul>
             </div>
           </section><section class="bg-white table-shadow rounded px20 py25 mb10" id="single" data-accordion>
-            <ul class="list-reset mxn1 mb0" data-control>
+            <ul class="list-reset  mb0" data-control>
               <li class="inline-block row-company p">Regions Financial Corp.</li>
               <li class="inline-block row-contact p">Elva Parks</li>
               <li class="inline-block row-description p">Not Securities, Commodity Contracts, And…</li>
@@ -267,16 +267,16 @@
 
         </div>
 
-        <!-- Download Records Section -->
+        <!-- Sticky Download Records Section -->
 
-        <div class="clearfix mx-auto  pt25 mb2 table-download px10">
-          <form class="flex flex-center mx-auto">
+        <div class="row mx-auto  pt25 mb2 table-download px10">
+          <form class="flex flex-center mx-auto bg-red">
             <label class="hide" for="search">Enter Amount</label>
-            <div class="mr-auto">
+            <div class="mr-auto col sm-col-8">
               <p class="m0 subtitle"><span class="bold">500 records available to download.</span> How many records do you want? </p>
             </div>
-            <div class="">
-              <input class="black field input-default mr2" id="search" type="text" placeholder=" Enter Amount" >
+            <div class="col sm-col-4">
+              <input class="flex-auto black field input-default mr2" id="search" type="text" placeholder=" Enter Amount" >
 
               <button class="btn btn-primary cta-portal">Download</button>
             </div>

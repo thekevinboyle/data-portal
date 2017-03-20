@@ -8,7 +8,7 @@
 }
 
 .portal-stats {
-  min-width: 970px;
+  /* min-width: 970px; */
   position: relative;
   top: -60px;
 }
@@ -106,8 +106,10 @@
 
   border-top: 2px solid #D9DEE2;
   position: sticky;
+  left: 0;
   bottom: 0;
   min-height: 200px;
+  overflow: auto;
   z-index: 9999;
   max-width: 980px;
 }
@@ -277,4 +279,8 @@ input[type=week] {
 .card-image {
   max-width: 200px;
   height: auto;
+}
+
+.intro-copy {
+  padding-top: 80px;
 }

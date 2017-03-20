@@ -1388,7 +1388,6 @@ h6{
 }
 
 .portal-stats{
-  min-width:970px;
   position:relative;
   top:-60px;
 }
@@ -1519,8 +1518,10 @@ h6{
   border-top:2px solid #D9DEE2;
   position:-webkit-sticky;
   position:sticky;
+  left:0;
   bottom:0;
   min-height:200px;
+  overflow:auto;
   z-index:9999;
   max-width:980px;
 }
@@ -1622,6 +1623,10 @@ input[type=text], input[type=date], input[type=datetime], input[type=datetime-lo
 .card-image{
   max-width:200px;
   height:auto;
+}
+
+.intro-copy{
+  padding-top:80px;
 }
 
 .cta-inset{
