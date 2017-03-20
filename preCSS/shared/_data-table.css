@@ -6,8 +6,8 @@
 
 /* Column widths are based on these cells */
 .row-company {
-  padding: 0;
-  margin: 0;
+  /* padding: 0; */
+  /* margin: 0; */
   width: 290px;
 }
 
@@ -38,6 +38,7 @@
 padding: var(--table-cell-padding-y) var(--table-cell-padding-x);
   line-height: inherit;
   text-align: left;
+
 }
 
 .data-table td {
