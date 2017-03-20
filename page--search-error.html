@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Radius Data Portal</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <script src="https://use.typekit.net/npl1anw.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <!-- <link rel="stylesheet" href="css/basscss.css"> -->
-  <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-  <link href="dest/stylesheets/main.css" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Radius Data Portal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://use.typekit.net/npl1anw.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- <link rel="stylesheet" href="css/basscss.css"> -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link href="dest/stylesheets/main.css" rel="stylesheet">
+  </head>
 
-<body class="state--sidebar-open">
-  <div class="container-master bg-light">
+  <body class="state--sidebar-open">
+    <div class="container-master bg-light">
 
       <main class="container-primary">
 
-        <!-- Data Table -->
-        <div class="row pt2">
-          <form class="flex flex-auto mb4">
+
+        <div class="row table-container overflow-scroll">
+          <form class="flex flex-auto py25">
             <label for="search" class="hide">Search</label>
-            <input id="search" type="text" placeholder="Search" class="field flex-auto input-search input-search--large  rounded">
+            <input id="search" type="text" placeholder="Search" class="fieldx flex-auto input-search input-search--large">
           </form>
 
-          <!-- <div class=""> -->
-          <!--   <p class="muted">Showing 10 of Samples of 8,550 results multiple</p> -->
+          <!-- Search Results -->
+          <!-- <div class="ml25 mb50"> -->
+          <!--   <p class="muted">Here are 10 of 12,748 Radius records for</p> -->
           <!-- </div> -->
+          <!-- End Search Results -->
 
-        </div>
-
-        <!-- Download Records Section -->
-
-        <div class="clearfix p3">
+          <!-- Data Table Rows -->
+<div class="clearfix p3">
           <div class="center col-10 mx-auto">
 
             <p class="h4">Hm, we couldn’t find anything for ‘bacon’</p>
@@ -43,6 +42,25 @@
             <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Finance and Insurance</button>
           </div>
         </div>
+
+
+        </div>
+
+        <!-- Sticky Download Records Section -->
+
+        <!-- <div class="row mx&#45;auto  pt25 mb2 table&#45;download px10"> -->
+        <!--   <form class="flex flex&#45;center mx&#45;auto"> -->
+        <!--     <label class="hide" for="search">Enter Amount</label> -->
+        <!--     <div class="mr&#45;auto col sm&#45;col&#45;8"> -->
+        <!--       <p class="m0 subtitle"><span class="bold">500 records available to download.</span> How many records do you want? </p> -->
+        <!--     </div> -->
+        <!--     <div class="col sm&#45;col&#45;4"> -->
+        <!--       <input class="flex&#45;auto black field input&#45;default mr2" id="search" type="text" placeholder=" Enter Amount" > -->
+        <!--  -->
+        <!--       <button class="btn btn&#45;primary cta&#45;portal">Download</button> -->
+        <!--     </div> -->
+        <!--   </form> -->
+        <!-- </div> -->
       </main>
 
       <!-- Side bar -->
@@ -62,12 +80,12 @@
           </div>
 
           <div class="px3">
-            <p class="bold mb1">Token ID</p>
+            <p class="bold mb1 p-sm">Token ID</p>
             <p class="mb2">12848934 (Expires in 23 hours)</p>
             <div class="bb-muted mb2"></div>
           </div>
           <div class="px3">
-            <p class="bold mb1">Records Available For Download</p>
+            <p class="p-sm bold mb1">Records Available For Download</p>
 
             <div class="toolip right white m0 p0" data-tooltip="Message here">
               <figure class="circle-error m0 p0">
@@ -81,54 +99,73 @@
             <div class="px3">
               <p class="p-sm bold pb1 m0">Radius Contact</p>
 
-              <p class="m0 p">Wes Heavner</p>
+              <p class="m0 h5 muted">Wes Heavner</p>
               <a href="#" class="m0 blue">wes@radius.com</a>
               <p class="h6">512-123-4567</p>
               <div class="mb3"></div>
             </div>
           </div>
 
-          <div class="px3 pt4 mb1">
-            <p class="mb1 h6 bold">3rd Party Analysis Downloads</p>
+          <div class="sidebar-download ">
+
+            <div class="px3 pt4 mb1">
+              <p class="mb1 p-sm gray-dark">3rd Party Analysis Downloads</p>
+            </div>
+
+            <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+              <a href="#">
+                <div class="ml1 flex flex-center p1">
+                  <img src="img/arrow-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
+                  <div class="flex-auto">
+                    <p class="m0 muted overflow-hidden">Equifax Analysis</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+              <a href="#">
+                <div class="ml1 flex flex-center p1">
+                  <img src="img/arrow-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
+                  <div class="flex-auto">
+                    <p class="m0 muted">Acme Analysis</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
+              <a href="#">
+                <div class="ml1 flex flex-center p1">
+                  <img src="img/arrow-download.svg" width="20" height="30" class="muted-icon flex-none flex-last mr2" />
+                  <div class="flex-auto">
+                    <p class="m0 gray muted">Globocorp Analysis</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
 
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a href="#">
-              <div class="ml1 flex flex-center p1">
-                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 gray overflow-hidden">Equifax Analysis</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a href="#">
-              <div class="ml1 flex flex-center p1">
-                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 gray">Equifax Analysis</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a href="#">
-              <div class="ml1 flex flex-center p1">
-                <img src="img/icon-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 gray">Equifax Analysis</p>
-                </div>
-              </div>
-            </a>
-          </div>
         </nav>
 
 
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="js/accordion.js"></script>
         <script src="js/Jexpand.js"></script>
         <script src="js/rellax.js"></script>
+
+
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $('#only-one [data-accordion]').accordion();
+            $('#multiple [data-accordion]').accordion({
+              singleOpen: false
+            });
+            $('#single[data-accordion]').accordion({
+              transitionEasing: 'cubic-bezier(0.455, 0.030, 0.515, 0.955)',
+              transitionSpeed: 200
+            });
+          });
+        </script>
         <script>
           // Accepts any class name
   var rellax = new Rellax('.rellax');

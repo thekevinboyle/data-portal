@@ -108,7 +108,7 @@
   position: sticky;
   left: 0;
   bottom: 0;
-  min-height: 200px;
+  min-height: 100px;
   overflow: auto;
   z-index: 9999;
   max-width: 980px;
@@ -272,8 +272,9 @@ input[type=week] {
 }
 
 .sidebar-download {
-  position: relative;
+  position: fixed;
   bottom: 30px;
+  min-width: inherit;
 }
 
 .card-image {

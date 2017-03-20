@@ -36,7 +36,7 @@ a,
 a:active,
 a:visited {
   /* color: #007BFF; */
-  color: inherit;
+  /* color: inherit; */
   font-size: var(--p-sm);
   text-decoration: none;
 }
