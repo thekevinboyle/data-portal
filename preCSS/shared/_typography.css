@@ -84,4 +84,6 @@ h6 {
   line-height: 72px;
 }
 /* ------------------------- */
-
+.thin {
+  font-weight: var(--thin);
+}

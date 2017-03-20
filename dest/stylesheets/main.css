@@ -23,7 +23,7 @@ label{
 }
 
 input[type=text], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week]{
-  height:2.25rem;
+  height:50px;
   padding:25px 25px;
   vertical-align:middle;
   -webkit-appearance:none;
@@ -35,7 +35,7 @@ select{
 }
 
 select:not([multiple]){
-  height:2.25rem;
+  height:50px;
   vertical-align:middle;
 }
 
@@ -1023,14 +1023,14 @@ hr{
 
 p{
   font-size:14px;
-  font-weight:400;
+  font-weight:300;
   letter-spacing:0;
   line-height:19px;
 }
 
 .p-sm{
   font-size:12px;
-  font-weight:500;
+  font-weight:400;
   letter-spacing:0;
   line-height:19px;
 }
@@ -1083,6 +1083,10 @@ h6{
   font-family:'alternate-gothic-no-2-d', sans-serif;
   font-size:72px;
   line-height:72px;
+}
+
+.thin{
+  font-weight:200;
 }
 
 .vh-100{
@@ -1375,12 +1379,17 @@ h6{
 }
 
 .portal-hero{
-  padding-top:22vh;
-  padding-bottom:22vh;
+  min-height:500px;
 }
 
-.transparent{
-  background:transparent;
+.portal-hero-copy{
+  position:relative;
+  margin-top:195px;
+}
+
+.portal-stats{
+  position:relative;
+  top:-60px;
 }
 
 .portal-sidebar{
@@ -1388,10 +1397,31 @@ h6{
   z-index:2;
 }
 
-.portal-token{
-  border-radius:6px;
-  min-height:70px;
-  width:466px;
+.input-token{
+  border-radius:5px;
+  font-size:17px;
+  font-weight:200;
+  min-height:73px;
+  padding:25px;
+}
+
+.input-token::-webkit-input-placeholder{
+}
+
+.input-token::-moz-placeholder{
+}
+
+.input-token:-ms-input-placeholder{
+}
+
+.input-token::placeholder{
+}
+
+.input-search{
+  font-size:17px;
+  font-weight:200;
+  height:3.25rem;
+  padding-left:60px;
 }
 
 .input-search{
@@ -1405,43 +1435,65 @@ h6{
   border-bottom:1px solid #d9dee2;
   content:'';
   font-size:17px;
+  font-weight:200;
   height:3.25rem;
   padding-left:60px;
 }
 
 .input-search--large{
   min-height:73px;
+  font-weight:200;
 }
 
 .input-default{
   border-radius:5px;
   border:0px solid #d9dee2;
   font-size:17px;
+  font-weight:200;
   min-height:50px;
+}
+
+.input-default::-webkit-input-placeholder{
+  color:#6E7577;
+}
+
+.input-default::-moz-placeholder{
+  color:#6E7577;
+}
+
+.input-default:-ms-input-placeholder{
+  color:#6E7577;
+}
+
+.input-default::placeholder{
+  color:#6E7577;
 }
 
 .input-search::-webkit-input-placeholder, .input-search--large::-webkit-input-placeholder{
   font-size:17px;
   padding-left:40px;
+  color:#6E7577;
 }
 
 .input-search::-moz-placeholder, .input-search--large::-moz-placeholder{
   font-size:17px;
   padding-left:40px;
+  color:#6E7577;
 }
 
 .input-search:-ms-input-placeholder, .input-search--large:-ms-input-placeholder{
   font-size:17px;
   padding-left:40px;
+  color:#6E7577;
 }
 
 .input-search::placeholder, .input-search--large::placeholder{
   font-size:17px;
   padding-left:40px;
+  color:#6E7577;
 }
 
 .portal-input{
-  width:466px;
   height:70px;
   background-color:#FFFFFF;
   box-shadow:0 6px 15px 0 rgba(0,0,0,0.3);
@@ -1460,22 +1512,18 @@ h6{
 }
 
 .table-download{
+  background-color:rgba(248,249,250,1);
   margin-top:30px;
+
   border-top:2px solid #D9DEE2;
   position:-webkit-sticky;
   position:sticky;
-  left:0; right:0; bottom:0;
-}
-
-.table-container{
-  max-height:600px;
-  overflow:scroll;
-}
-
-.portal-stats{
-  min-width:970px;
-  position:relative;
-  margin-top:-60px;
+  left:0;
+  bottom:0;
+  min-height:200px;
+  overflow:auto;
+  z-index:9999;
+  max-width:980px;
 }
 
 .flourish{
@@ -1512,8 +1560,8 @@ h6{
   background-position:center center;
   background-size:14px auto;
   content:'';
-width:7px;
-height:12.25px;
+  width:7px;
+  height:12.25px;
 }
 
 .gradient-intro{
@@ -1529,12 +1577,7 @@ height:12.25px;
 .tooltip:after::hover{
 }
 
-*/ */ */ .sidebar-download{
-  position:absolute;
-  bottom:30px;
-}
-
-.sidebar-offer{
+*/ */ */ .sidebar-offer{
   text-decoration:none;
 }
 
@@ -1551,6 +1594,39 @@ height:12.25px;
 .icon-error{
   max-width:28px;
   max-height:28px;
+}
+
+input, select, textarea, fieldset{
+  font-family:inherit;
+  font-size:1rem;
+  box-sizing:border-box;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+label{
+  vertical-align:middle;
+}
+
+input[type=text], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week]{
+  height:50px;
+  padding:25px 25px;
+  vertical-align:middle;
+  -webkit-appearance:none;
+}
+
+.sidebar-download{
+  position:relative;
+  bottom:30px;
+}
+
+.card-image{
+  max-width:200px;
+  height:auto;
+}
+
+.intro-copy{
+  padding-top:80px;
 }
 
 .cta-inset{
@@ -1692,7 +1768,6 @@ background-color:#303B3E;
 .bg-black{ background-color:#111111; }
 
 .bg-gray-lightest{
-
 background-color:#ECEFF1;
 }
 
@@ -1855,9 +1930,9 @@ color:#0A96FD;
 }
 
 .table-shadow{
-  border:0 solid #D9DEE2;
+  border:0;
   border-radius:5px;
-  box-shadow:0 1px 3px 0 rgba(0,0,0,0.1);
+box-shadow:0 1px 3px 0 rgba(0,0,0,0.1);
 }
 
 .shadow-input{
@@ -1876,6 +1951,10 @@ color:#0A96FD;
 
 .shadow-sidebar{
   box-shadow:4px 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.shadow-card{
+  box-shadow:0 3px 8px 0 rgba(0,0,0,0.05);
 }
 
 .shadow-stats{
@@ -2036,15 +2115,15 @@ color:#0A96FD;
 .row-company{
   padding:0;
   margin:0;
-  width:185px;
+  width:290px;
 }
 
 .row-contact{
-  width:66px;
+  width:160px;
 }
 
 .row-description{
-  width:302px;
+  width:335px;
 }
 
 .row-code{
@@ -2074,6 +2153,54 @@ padding:.25rem 1rem;
 .data-table tr:nth-child(even){
 }
 
+/*!
+ * jQuery Accordion 0.0.1
+ * (c) 2014 Victor Fernandez <victor@vctrfrnndz.com>
+ * MIT Licensed.
+ */
+
+[data-accordion] [data-content]{
+    overflow:hidden;
+    max-height:0;
+}
+
+[data-accordion]{
+    line-height:1;
+}
+
+[data-control], [data-content] > *{
+}
+
+[data-content] [data-accordion]{
+    border:0;
+    padding:0;
+}
+
+[data-accordion] [data-control]{
+    position:relative;
+}
+
+[data-accordion] > [data-control]:after{
+    content:"";
+    position:absolute;
+    right:10px;
+    top:3px;
+    font-size:25px;
+    color:#444;
+    height:15px;
+    width:24px;
+    background:url('../../img/caret-right.svg') center center no-repeat;
+    background-size:50%;
+    transition:all 0.25s;
+}
+
+[data-accordion].open > [data-control]:after{
+    -webkit-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    transition:all 0.25s;
+}
+
 html{
   box-sizing:border-box;
 }
@@ -2084,6 +2211,10 @@ html{
 
 body{
   color:#303B3E;
+}
+
+button:focus{
+  outline:none;
 }
 
 a, a:active, a:visited{
@@ -2116,7 +2247,7 @@ a:hover{
   margin-left:0;
   padding-left:0;
   position:relative;
-  top:-200px;
+  top:0;
 }
 
 .rad-logo-r{

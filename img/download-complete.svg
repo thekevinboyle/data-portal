@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="101px" viewBox="0 0 100 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="51" r="50"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="100" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="50" cy="51" r="48"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="96" height="96" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy">
+            <use id="Oval" stroke="#005EF9" mask="url(#mask-2)" stroke-width="12" opacity="0.200000003" transform="translate(50.000000, 51.000000) rotate(-270.000000) translate(-50.000000, -51.000000) " xlink:href="#path-1"></use>
+            <use id="Oval" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="4" transform="translate(50.000000, 51.000000) rotate(-270.000000) translate(-50.000000, -51.000000) " xlink:href="#path-3"></use>
+            <polyline id="Path-8" stroke="#FFFFFF" stroke-width="4" points="37 52.6517329 45.3482671 61 65.3482671 41"></polyline>
+        </g>
+    </g>
+</svg>

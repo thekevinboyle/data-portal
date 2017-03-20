@@ -71,7 +71,6 @@ background-color: var(--gray-darkest);
 .bg-silver { background-color: #DDDDDD; }
 .bg-black { background-color: #111111; }
 .bg-gray-lightest {
-
 background-color: var(--gray-lightest);
 }
 

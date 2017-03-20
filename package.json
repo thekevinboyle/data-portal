@@ -1,7 +1,8 @@
 {
   "name": "try2-data-portal-2017",
   "version": "1.0.0",
-  "description": "project for Radius around data portal",
+  "url": "git://github.com/thekevinboyle/data-portal.git",
+"description": "project for Radius around data portal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

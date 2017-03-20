@@ -11,6 +11,7 @@
 @import 'shared/_shadow';
 @import 'shared/_tooltip';
 @import 'shared/_data-table';
+@import 'shared/_accordion';
 
 @custom-media --breakpoint-sm max-width:750px;
 @custom-media --breakpoint-md (min-width:750px) and (max-width:960px);
@@ -28,6 +29,9 @@ body {
   color: var(--gray-dark);
 }
 
+button:focus {
+  outline: none;
+}
 a,
 a:active,
 a:visited {
@@ -63,7 +67,7 @@ a:hover {
   margin-left: 0;
   padding-left: 0;
   position: relative;
-  top: -200px;
+  top: 0;
 }
 .rad-logo-r {
   /* background: url("../../img/radius-logo-r.png") no-repeat; */
@@ -116,5 +120,6 @@ a:hover {
 /* ------------------------- */
 
 /* Expandable / Collapsible Rows */
+
 /* ------------------------- */
 

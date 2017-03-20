@@ -1,20 +1,40 @@
 .portal-hero {
-  padding-top: 22vh;
-  padding-bottom: 22vh;
+  min-height: 500px;
 }
 
-.transparent {
-  background: transparent;
+.portal-hero-copy {
+  position: relative;
+  margin-top: 195px;
 }
+
+.portal-stats {
+  /* min-width: 970px; */
+  position: relative;
+  top: -60px;
+}
+
 .portal-sidebar {
   min-width: 300px;
   z-index: 2;
 }
 
-.portal-token {
-  border-radius: 6px;
-  min-height: 70px;
-  width: 466px;
+.input-token {
+  border-radius: var(--border-radius);
+  font-size: var(--h4);
+  font-weight: var(--thin);
+  min-height: 73px;
+  padding: var(--form-field-padding-y);
+}
+
+.input-token::placeholder {
+  /* padding-left: 20px; */
+}
+
+.input-search {
+  font-size: var(--h4);
+  font-weight: var(--thin);
+  height: 3.25rem;
+  padding-left: 60px;
 }
 
 .input-search {
@@ -30,29 +50,38 @@
   /* box-shadow: 0 3px 8px 0 rgba(0,0,0,0.1); */
   content: '';
   font-size: var(--h4);
+  font-weight: var(--thin);
   height: 3.25rem;
   padding-left: 60px;
 }
 
 .input-search--large {
   min-height: 73px;
+  font-weight: var(--thin);
 }
 
 .input-default {
   border-radius: var(--border-radius);
   border: 0px solid #d9dee2;
   font-size: var(--h4);
+  font-weight: var(--thin);
   min-height: 50px;
 }
+
+.input-default::placeholder {
+  color: var(--muted);
+}
+
 
 .input-search::placeholder,
 .input-search--large::placeholder {
   font-size: var(--h4);
   padding-left: 40px;
+  color: var(--muted);
 }
 
 .portal-input {
-  width: 466px;
+  /* width: 466px; */
   height: 70px;
   background-color: #FFFFFF;
   box-shadow: 0 6px 15px 0 rgba(0,0,0,0.3);
@@ -71,24 +100,25 @@
 }
 
 .table-download {
-  /* background-color: #ECEFF1; */
+  background-color: rgba(248,249,250,1);
   /* box-shadow: 0 1px 2px 0 #D9DEE2; */
   margin-top: 30px;
+
   border-top: 2px solid #D9DEE2;
   position: sticky;
-  left: 0 ; right: 0; bottom: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 200px;
+  overflow: auto;
+  z-index: 9999;
+  max-width: 980px;
 }
 
-.table-container {
-  max-height: 600px;
-  overflow: scroll;
-}
+/* .table-container { */
+/*   max-height: 600px; */
+/*   overflow: scroll; */
+/* } */
 
-.portal-stats {
-  min-width: 970px;
-  position: relative;
-  margin-top: -60px;
-}
 
 /* ------------------------- */
 /* Decos */
@@ -135,8 +165,8 @@
   background-position: center center;
   background-size: 14px auto;
   content: '';
-width: 7px;
-height: 12.25px;
+  width: 7px;
+  height: 12.25px;
 }
 
 .gradient-intro {
@@ -187,10 +217,6 @@ height: 12.25px;
 /*   visibility: visible; */
 /* } */
 
-.sidebar-download {
-  position: absolute;
-  bottom: 30px;
-}
 
 .sidebar-offer {
   text-decoration: none;
@@ -206,8 +232,55 @@ height: 12.25px;
   border-bottom: 1px solid #D9DEE2;
 }
 
-
 .icon-error {
   max-width: 28px;
   max-height: 28px;
+}
+
+input,
+select,
+textarea,
+fieldset {
+  font-family: var(--form-field-font-family);
+  font-size: var(--form-field-font-size);
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+label {
+  vertical-align: middle;
+}
+
+input[type=text],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  height: var(--form-field-height);
+  padding: var(--form-field-padding-y) var(--form-field-padding-x);
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+.sidebar-download {
+  position: relative;
+  bottom: 30px;
+}
+
+.card-image {
+  max-width: 200px;
+  height: auto;
+}
+
+.intro-copy {
+  padding-top: 80px;
 }
