@@ -4,6 +4,7 @@
   --blue: #0074D9;
   --blue-deep: #034677;
   --blue-50: #97c4e3;
+  --gray-default: #969DA3;
   --gray-darkest: #303B3E;
   --gray-dark: #303B3E;
   --gray-medium: #a6a6a6;
@@ -23,6 +24,10 @@
   --orange-red: #f05b24;
   --orange-red-muted: #f69d83;
   --muted: #6E7577;
+}
+
+.gray-default {
+  color: var(--gray-default);
 }
 
 .muted-icon {

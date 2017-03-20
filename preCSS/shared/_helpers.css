@@ -8,6 +8,11 @@
 .vh-50 {
   min-height: 50vh;
 }
+
+.vh-25 {
+  min-height: 25vh;
+}
+
 .vw-100 {
   min-width: 100vw;
 }
