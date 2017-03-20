@@ -27,7 +27,7 @@ input[type=time],
 input[type=url],
 input[type=week] {
   height: var(--form-field-height);
-  padding: var(--form-field-padding-y) var(--form-field-padding-x);
+  padding: var(--form-field-padding-y) 50px;
   vertical-align: middle;
   -webkit-appearance: none;
   transition: box-shadow .25s ease;
