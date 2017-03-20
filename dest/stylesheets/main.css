@@ -1080,6 +1080,7 @@ h6{
 
 .pill{
   border-radius:100px;
+  font-size:14px;
   height:41px;
   margin:.5rem;
 }

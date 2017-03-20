@@ -26,6 +26,7 @@
 /* ------------------------- */
 .pill {
   border-radius: 100px;
+  font-size: var(--p);
   height: 41px;
   margin: .5rem;
 }
