@@ -1520,7 +1520,7 @@ h6{
   position:sticky;
   left:0;
   bottom:0;
-  min-height:200px;
+  min-height:100px;
   overflow:auto;
   z-index:9999;
   max-width:980px;
@@ -1616,8 +1616,9 @@ input[type=text], input[type=date], input[type=datetime], input[type=datetime-lo
 }
 
 .sidebar-download{
-  position:relative;
+  position:fixed;
   bottom:30px;
+  min-width:inherit;
 }
 
 .card-image{
@@ -1674,7 +1675,7 @@ background:linear-gradient(to bottom, rgba(33,128,252,1) 0%, rgba(47,0,254,1) 10
 filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#2180fc', endColorstr='#2f00fe', GradientType=0 );
   background-size:cover;
   content:'';
-  position:absolute;
+  position:fixed;
   left:0;
   top:0;
   height:100vh;
@@ -2218,7 +2219,6 @@ button:focus{
 }
 
 a, a:active, a:visited{
-  color:inherit;
   font-size:12px;
   text-decoration:none;
 }

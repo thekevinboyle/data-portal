@@ -27,7 +27,7 @@ background: linear-gradient(to bottom, rgba(33,128,252,1) 0%, rgba(47,0,254,1) 1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2180fc', endColorstr='#2f00fe', GradientType=0 );
   background-size: cover;
   content: '';
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   height: 100vh;
