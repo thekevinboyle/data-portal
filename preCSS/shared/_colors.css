@@ -1,7 +1,7 @@
 
 :root {
   /* Colors Core for backgrounds and type */
-  --blue: #2b84c6;
+  --blue: #0074D9;
   --blue-deep: #034677;
   --blue-50: #97c4e3;
   --gray-darkest: #303B3E;
@@ -99,7 +99,7 @@ background-color: var(--gray-lightest);
 .white { color: #FFFFFF; }
 .silver { color: #DDDDDD; }
 .gray { color: #AAAAAA; }
-.black { color: #111111; }
+.black { color: #000000; }
 
 .orange-red {color: #F15C17;}
 .blue-pill {
@@ -164,4 +164,5 @@ color: #0A96FD;
 .stroke-gray { stroke: #AAAAAA; }
 .stroke-silver { stroke: #DDDDDD; }
 .stroke-black { stroke: #111111; }
+
 
