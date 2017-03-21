@@ -18,11 +18,11 @@
 
       <main class="container-primary">
 
-        <div class="row table-container overflow-scroll">
-          <form class="flex flex-auto py25">
+          <form class="flex flex-auto  py25 m0">
             <label for="search" class="hide">Search</label>
             <input id="search" type="text" placeholder="Search" class="fieldx flex-auto input-default--inline">
           </form>
+        <div class="row table-container overflow-scroll">
 
           <!-- Search Results -->
           <div class="ml25 mb50">
@@ -31,8 +31,8 @@
           <!-- End Search Results -->
 
           <!-- Data Table -->
-          <section class="ml30 mb5">
-            <ul class="list-reset mb0">
+          <section class="px20 mb5">
+            <ul class="flex flex-wrap list-reset mb0">
               <li class="inline-block row-company p-sm gray-dark">Company</li>
               <li class="inline-block row-contact p-sm gray-dark">Contact</li>
               <li class="inline-block row-description p-sm gray-dark">NAICS Description</li>
@@ -41,8 +41,8 @@
           </section>
 
           <!-- Data Table Rows -->
-          <section class="bg-white table-shadow rounded px20 py25 mb10" id="single" data-accordion>
-            <ul class="list-reset mb0" data-control>
+          <section class="data-table bg-white table-shadow rounded px20 py25 mb10" id="single" data-accordion>
+            <ul class="flex flex-wrap list-reset mb0" data-control>
               <li class="inline-block row-company p">Regions Financial Corp.</li>
               <li class="inline-block row-contact p">Elva Parks</li>
               <li class="inline-block row-description p">Not Securities, Commodity Contracts, And…</li>
@@ -51,7 +51,7 @@
 
             <!-- The content to be revealed on expand -->
             <div data-content>
-              <ul class="list-reset mb0 pt15">
+              <ul class="flex flex-wrap list-reset mb0 pt15">
                 <li class="align-top muted inline-block row-company p-sm">3119 N Lincoln Ave, Chicago, IL 60657
                   512-XXX-1234
                   riverwoodholdings.com</li>
@@ -243,8 +243,8 @@
             <div class="mr-auto col sm-col-8">
               <p class="m0 subtitle"><span class="bold">500 records available to download.</span> How many records do you want? </p>
             </div>
-            <div class="col sm-col-4">
-              <input class="flex-auto black field input-default mr2" id="search" type="text" placeholder=" Enter Amount" >
+            <div class="flex flex-center col sm-col-4">
+              <input class="flex-auto black field input-default mr2" id="searchx" type="text" placeholder=" Enter Amount" >
 
               <button class="btn btn-primary cta-portal">Download</button>
             </div>

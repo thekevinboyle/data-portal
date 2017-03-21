@@ -1,26 +1,39 @@
 .data-table {
-  table-layout: fixed;
-  width: 100%;
-  white-space: nowrap;
+  /* table-layout: fixed; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* white-space: nowrap; */
+}
+
+.data-table li {
+  vertical-align: top;
 }
 
 /* Column widths are based on these cells */
 .row-company {
   /* padding: 0; */
   /* margin: 0; */
-  width: 290px;
+  /* width: 290px; */
+  flex-basis: 25%;
 }
 
 .row-contact {
-  width: 160px;
+  /* flex-basis: 160px; */
+  /* width: 160px; */
+  flex-basis: 20%;
 }
 
 .row-description {
-  width: 335px;
+  /* width: 290px; */
+  flex-basis: 40%;
+
+
 }
 
 .row-code {
-  width: 75px;
+  /* width: 75px; */
+  flex-basis: 10%;
 }
 
 .data-table td {
@@ -47,3 +60,6 @@ padding: var(--table-cell-padding-y) var(--table-cell-padding-x);
 .data-table tr:nth-child(even) {
   /* background: var(--gray-lightest); */
 }
+
+
+
