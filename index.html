@@ -11,6 +11,7 @@
   <!-- <link rel="stylesheet" href="css/basscss.css"> -->
   <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
   <link href="dest/stylesheets/main.css" rel="stylesheet">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
@@ -24,14 +25,17 @@
       </figure>
     </div>
     <div class="row">
-    <header class="col-10 mx-auto white portal-hero">
-      <div class="center portal-hero-copy">
-      <h1 class="uber m0 mb10">Start Your Radius Data Test Drive</h1>
-      <p class="subtitle mb50"> Enter your test drive token to start exploring the quality and accuracy of the Radius Business Graph. If you don’t have a token, email <a class="white subtitle" href="mailto:support@radius.com?Subject=Token">support@radius.com</a> and we’ll send you one. </p>
-      <label class="hide">Token</label>
-      <input type="text" placeholder="Enter Your Token" class="input-default--token block col-8 mx-auto field rounded mb2">
-      </div>
-    </header>
+
+
+
+      <header class="col-10 mx-auto white portal-hero">
+        <div class="center portal-hero-copy">
+          <h1 class="uber m0 mb10">Start Your Radius Data Test Drive</h1>
+          <p class="subtitle mb50"> Enter your test drive token to start exploring the quality and accuracy of the Radius Business Graph. If you don’t have a token, email <a class="white subtitle" href="mailto:support@radius.com?Subject=Token">support@radius.com</a> and we’ll send you one. </p>
+          <label class="hide">Token</label>
+          <input type="text" placeholder="Enter Your Token" class="input-default--token block col-8 mx-auto field rounded mb2">
+        </div>
+      </header>
     </div>
 
   </div>
@@ -61,11 +65,16 @@
           <p class="center">Phone Accuracy</p>
         </div>
 
-        <div class="clearfix">
-          <figure class="col m0">
-            <img src="img/illy-init.png" class="mx-auto" />
-          </figure>
-        </div>
+
+        <ul class="bxslider">
+          <li><img src="img/illy-init.png" /></li>
+          <li><img src="img/illy-contact.png" /></li>
+          <li><img src="img/illy-business.png" /></li>
+        </ul>
+        <figure class="col m0">
+          <img src="img/illy-init.png" class="mx-auto" />
+        </figure>
+
       </div>
 
     </div>
@@ -132,10 +141,21 @@
 
 <script src="js/Jexpand.js"></script>
 <script src="js/rellax.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/js/jquery.bxslider.min.js"></script>
+
 <script>
   // Accepts any class name
   var rellax = new Rellax('.rellax');
 </script>
+
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
+
 </body>
 
 </html>

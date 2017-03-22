@@ -13,6 +13,7 @@
 @import 'shared/_data-table';
 @import 'shared/_form';
 @import 'shared/_accordion';
+@import 'shared/bxslider';
 
 @custom-media --breakpoint-sm max-width:750px;
 @custom-media --breakpoint-md (min-width:750px) and (max-width:970px);
