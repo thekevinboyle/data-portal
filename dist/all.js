@@ -577,3 +577,7 @@ $(function()
   };
   return Rellax;
 }));
+
+$('.expandable').on('mousedown', function(){
+  $(this).toggleClass('expanded')
+})

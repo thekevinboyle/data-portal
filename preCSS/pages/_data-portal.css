@@ -200,6 +200,17 @@
   position: fixed;
   bottom: 10px;
   min-width: inherit;
+
+}
+
+.arrow-download {
+  height: 19px;
+  width: 14px;
+}
+  @media screen and (max-height: 620px) {
+  .sidebar-download {
+    position: relative;
+  }
 }
 
 .card-image {

@@ -87,6 +87,7 @@ label {
 .input-default:focus {
   box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
   border: 1px solid #D9DEE2;
+
 }
 
 .input-default::placeholder {
@@ -94,7 +95,7 @@ label {
 }
 
 .input-default-error {
-  background: url("../../img/error-red.svg");
+  background: #FFFFFF url("../../img/error-red.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
   background-size: 16px 16px;
@@ -118,6 +119,7 @@ label {
   transition: box-shadow .25s ease;
   min-height: 70px;
   transition: all .25s ease;
+
 }
 
 .input-default--lg:hover {
@@ -132,7 +134,8 @@ label {
 }
 
 .input-default--lg:focus {
-  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px 0 rgba(0,0,0,0.4);
+  border: 1px solid #F15C17;
 }
 
 .input-default--lg::placeholder {

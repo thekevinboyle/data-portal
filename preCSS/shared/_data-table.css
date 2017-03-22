@@ -1,3 +1,52 @@
+.exp-inner {
+  display: block;
+}
+
+.description {
+  display: inline;
+}
+
+.expandable {
+  /* important */
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+  border-radius: 5px;
+  max-height: 70px;
+  overflow: hidden;
+  transition: max-height 0.25s ease-in-out;
+
+  /* not important */
+  position: relative;
+
+  &.expanded {
+    /* important */
+    max-height: 9999px;
+    overflow: auto;
+
+    /* not important */
+    transition: all 0.25 ease;
+
+    &:after {
+      content: "^";
+      display: block;
+      position: absolute;
+      top: 1em;
+      right: 1em;
+    }
+  }
+
+  /* not important */
+  &:after {
+    content: ">";
+    display: block;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+}
+
+
+
 .data-table {
   /* table-layout: fixed; */
   /* width: 100%; */
@@ -48,7 +97,7 @@
 
 .data-table td,
 .data-table th {
-padding: var(--table-cell-padding-y) var(--table-cell-padding-x);
+  padding: var(--table-cell-padding-y) var(--table-cell-padding-x);
   line-height: inherit;
   text-align: left;
 
