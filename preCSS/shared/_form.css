@@ -85,6 +85,8 @@ label {
 }
 
 .input-default:focus {
+
+  background-color: white;
   box-shadow: 0 6px 20px 0 rgba(0,0,0,0.1);
   border: 1px solid #D9DEE2;
 
@@ -111,6 +113,12 @@ label {
 }
 
 .input-default--lg {
+
+  background: url("../../img/search.svg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: left 25px center;
+  background-size: 14px auto;
   border-radius: var(--border-radius);
   border: 1px solid transparent;
   box-shadow: 0 3px 10px 0 rgba(0,0,0,0.05);
@@ -118,6 +126,7 @@ label {
   font-weight: var(--thin);
   transition: box-shadow .25s ease;
   min-height: 70px;
+  padding: 15px 50px;
   transition: all .25s ease;
 
 }
@@ -129,11 +138,18 @@ label {
 }
 
 .input-default--lg:active {
+
   border: 1px solid #D9DEE2;
   transition: box-shadow .25s ease;
 }
 
 .input-default--lg:focus {
+  background: url("../../img/search.svg"),url("../../img/exit.svg");
+  background-color: white;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 25px center, right 25px center ;
+  background-size: 14px auto, 14px auto;
+  background-size: 16px 16px;
   box-shadow: 0 6px 20px 0 rgba(0,0,0,0.4);
   border: 1px solid #F15C17;
 }
@@ -144,6 +160,8 @@ label {
 
 
 .input-default--token {
+
+  background-color: white;
   box-shadow: 0 3px 10px 0 rgba(0,0,0,0.2);
   border: 1px solid #FFFFFF;
   border-radius: var(--border-radius);
@@ -217,6 +235,7 @@ label {
 .input-default--inline:focus {
 
   background: url("../../img/search.svg"),url("../../img/exit.svg");
+  background-color: white;
   background-repeat: no-repeat, no-repeat;
   background-position: left 25px center, right 25px center ;
   background-size: 14px auto, 14px auto;

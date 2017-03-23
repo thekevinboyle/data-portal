@@ -91,6 +91,10 @@
 .border-subtle {
   border: 1px solid #d9d9d8;
 }
+
+.border-download {
+  border: 1px solid #D9DEE2;
+}
 /* ------------------------- */
 
 /* ------------------------- */

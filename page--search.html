@@ -18,28 +18,25 @@
 
       <main class="container-primary">
 
-          <form class="flex flex-auto  py25 m0">
+          <form class="row pt25 pb10 m0">
             <label for="search" class="hide">Search</label>
-            <input id="search" type="text" placeholder="Search" class="fieldx flex-auto input-default--inline">
+            <input id="search" type="text" placeholder="Search" class="col col-12 flex-auto input-default--inline">
           </form>
         <div class="row table-container overflow-scroll">
 
           <!-- Search Results -->
-          <div class="ml25 mb50">
-            <p class="muted">Here are 10 of 12,748 Radius records for</p>
+          <div class="ml20">
+            <p class="muted py10">Here are 10 of 12,748 Radius records for</p>
           </div>
           <!-- End Search Results -->
 
-
-
           <!-- Data Table -->
-          <section class="">
-            <ul class="clearfix relative list-reset xs-hide sm-hide md-hide">
-
-              <li class="col lg-col-3 p-sm gray-dark">Company</li>
-              <li class="col lg-col-3 p-sm gray-dark">Contact</li>
-              <li class="col lg-col-4 p-sm gray-dark">NAICS Description</li>
-              <li class="col lg-col-2 p-sm gray-dark">NAICS Code</li>
+          <section class="clearfix mb10">
+            <ul class=" relative list-reset xs-hide">
+              <li class="lg-col lg-col-3 p-sm gray-dark px20">Company</li>
+              <li class="lg-col lg-col-3 p-sm gray-dark px20">Contact</li>
+              <li class="lg-col lg-col-4 p-sm gray-dark px20">NAICS Description</li>
+              <li class="lg-col lg-col-2 p-sm gray-dark px20">NAICS Code</li>
             </ul>
           </section>
 
@@ -49,25 +46,25 @@
 
           <div class="trigger "></div>
 
-          <ul class="clearfix list-reset">
-            <li class="align-top col col-6  lg-col-3 px20 py25 ">
+          <ul class="clearfix list-reset m0">
+            <li class="align-top sm-col sm-col-6   lg-col-3 px20 py25 ">
               <p class="m0 p0">Company Name</p>
               <div class=" expandable">
                 <p class="  m0 p0 p-sm muted">3119 N Lincoln Ave, Chicago, IL 60657</p>
               </div>
             </li>
-            <li class=" align-top col col-6 lg-col-3 px20 py25 ">
+            <li class=" align-top sm-col sm-col-6 lg-col-3 px20 py25 ">
               <p class="m0 p0">Contacts Name</p>
               <div class="expandable">
                 <p class="  m0 p0 p-sm muted">3119 N Lincoln Ave, Chicago, IL 60657</p>
               </div>
             </li>
-            <li class="align-top col col-6  lg-col-4 px20 py25 ">
+            <li class="align-top sm-col sm-col-6  lg-col-4 px20 py25 ">
               <p class="m0 p0">Description</p>
               <div class="expandable">
               </div>
             </li>
-            <li class="align-top col col-6 lg-col-2 px20 py25 ">
+            <li class="align-top sm-col sm-col-6 lg-col-2 px20 py25 ">
 
               <p class="m0 p0">Code</p>
               <div class="expandable">
@@ -371,31 +368,31 @@
           <p class="mb1 p-sm gray-dark">3rd Party Analysis Downloads</p>
         </div>
 
-        <div class="mx3 p15 shadow-subtle border-subtle rounded mb2">
+        <div class="mx3 table-shadow border-download rounded mb2">
           <a class="decoration-none" href="#" >
             <div class="ml1 flex flex-center">
               <img src="img/arrow-download-gray.svg" class="arrow-download flex-none flex-last mr2" />
-              <div class="flex-auto">
+              <div class="flex-auto py15 px15">
                 <p class="m0 muted overflow-hidden p">Equifax Analysis</p>
               </div>
             </div>
           </a>
         </div>
-        <div class="mx3 p15 shadow-subtle border-subtle rounded mb2">
+        <div class="mx3 table-shadow border-download rounded mb2">
           <a class="decoration-none" href="#" >
             <div class="ml1 flex flex-center">
               <img src="img/arrow-download-gray.svg" class="arrow-download flex-none flex-last mr2" />
-              <div class="flex-auto">
+              <div class="flex-auto px15 py15">
                 <p class="m0 muted p">Acme Analysis</p>
               </div>
             </div>
           </a>
         </div>
-        <div class="mx3 p15 shadow-subtle border-subtle rounded mb2">
+        <div class="mx3  table-shadow border-download rounded mb2">
           <a class="decoration-none" href="#" >
             <div class="ml1 flex flex-center">
               <img src="img/arrow-download-gray.svg" class="arrow-download muted-icon flex-none flex-last mr2" />
-              <div class="flex-auto">
+              <div class="flex-auto px15 py15">
                 <p class="m0 muted p">Globocorp Analysis</p>
               </div>
             </div>
@@ -428,6 +425,7 @@
       // Accepts any class name
   var rellax = new Rellax('.rellax');
 </script>
+
 </body>
 
 </html>

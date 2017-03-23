@@ -17,7 +17,7 @@
     <div class="container-master bg-light">
 
       <main class="container-primary">
-<div class="row flex flex-center vh-100">
+        <div class="row flex flex-center vh-100">
           <div class="col col-8  black mx-auto center px3 py4 white bg-cover bg-center">
 
             <h2 class="mx-auto mb10">What's your target industry?</h2>
@@ -27,21 +27,21 @@
               <div class="col-10 mx-auto">
                 <form class="mb30 flex">
                   <label for="search" class="hide">Search</label>
-                  <input id="search" type="text" placeholder="Search" class="flex-auto field input-default--lg ">
+                  <input id="search tags" type="text" placeholder="Search" class="flex-auto field input-default--lg ">
                 </form>
               </div>
             </div>
             <div class="flex flex-center row">
 
-            <div class="center col mx-auto">
-              <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Credit Intermediation And Related Activities</button>
-              <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
-              <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Finance and Insurance</button>
+              <div class="center col mx-auto">
+                <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Credit Intermediation And Related Activities</button>
+                <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
+                <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Finance and Insurance</button>
 
-              <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
-              <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
-              <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
-            </div>
+                <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
+                <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
+                <button class="btn btn-primary pill bg-blue-pill blue-primary p-sm">Bank & Finance Equipment</button>
+              </div>
             </div>
           </div>
         </div>
@@ -96,13 +96,13 @@
 
           <div class="px3">
             <p class="bold p-sm m0">Token ID</p>
-            <p class="mb2">12848934 (Good for 23 more hours)</p>
+            <p class="mb2">12848934 (Expires in 23 hours)</p>
             <div class="bb-muted mb2"></div>
           </div>
           <div class="px3">
             <p class="p-sm bold m0">Records Available For Download</p>
 
-            <p class="mb2">500 of 500 </p>
+            <p class="mb2"><span class="orange-red">500 Remaining</span> (0 used) </p>
             <div class="bb-muted mb2"></div>
           </div>
 
@@ -118,50 +118,52 @@
 
         <div class="sidebar-download ">
 
-          <div class="px3 pt4 mb1">
-            <p class="mb1 p-sm gray-dark">3rd Party Analysis Downloads</p>
-          </div>
-
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a class="decoration-none" href="#" >
-              <div class="ml1 flex flex-center p1">
-                <img src="img/arrow-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 muted overflow-hidden">Equifax Analysis</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a class="decoration-none" href="#" >
-              <div class="ml1 flex flex-center p1">
-                <img src="img/arrow-download.svg" width="20" height="30" class="flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 muted">Acme Analysis</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="mx3 p1 shadow-subtle border-subtle rounded mb2">
-            <a class="decoration-none" href="#" >
-              <div class="ml1 flex flex-center p1">
-                <img src="img/arrow-download.svg" width="20" height="30" class="muted-icon flex-none flex-last mr2" />
-                <div class="flex-auto">
-                  <p class="m0 gray muted">Globocorp Analysis</p>
-                </div>
-              </div>
-            </a>
-          </div>
+        <div class="px3 pt4 mb1">
+          <p class="mb1 p-sm gray-dark">3rd Party Analysis Downloads</p>
         </div>
+
+        <div class="mx3 table-shadow border-download rounded mb2">
+          <a class="decoration-none" href="#" >
+            <div class="ml1 flex flex-center">
+              <img src="img/arrow-download-gray.svg" class="arrow-download flex-none flex-last mr2" />
+              <div class="flex-auto py15 px15">
+                <p class="m0 muted overflow-hidden p">Equifax Analysis</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="mx3 table-shadow border-download rounded mb2">
+          <a class="decoration-none" href="#" >
+            <div class="ml1 flex flex-center">
+              <img src="img/arrow-download-gray.svg" class="arrow-download flex-none flex-last mr2" />
+              <div class="flex-auto px15 py15">
+                <p class="m0 muted p">Acme Analysis</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="mx3  table-shadow border-download rounded mb2">
+          <a class="decoration-none" href="#" >
+            <div class="ml1 flex flex-center">
+              <img src="img/arrow-download-gray.svg" class="arrow-download muted-icon flex-none flex-last mr2" />
+              <div class="flex-auto px15 py15">
+                <p class="m0 muted p">Globocorp Analysis</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
       </nav>
 
 
 
       <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       <script src="js/accordion.js"></script>
       <script src="js/Jexpand.js"></script>
       <script src="js/rellax.js"></script>
+      <script src="js/autocomplete.js"></script>
 
 
       <script type="text/javascript">

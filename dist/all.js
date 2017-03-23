@@ -299,6 +299,18 @@
 
 })( jQuery, window, document );
 
+  $( function() {
+    var availableTags = [
+      "Apple",
+      "Orange",
+      "Mango",
+      "Coffee"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+
 $(function() {
 	$('tr.parent')
 		.css("cursor","pointer")

@@ -3,9 +3,9 @@
 /* @import "colors.css/myth/variables"; */
 @import 'colors.css/src/_variables';
 
-@custom-media --breakpoint-sm (min-width: 40em);
-@custom-media --breakpoint-md (min-width: 52em);
-@custom-media --breakpoint-lg (min-width: 64em);
+/* @custom-media --breakpoint-sm (min-width: 40em); */
+/* @custom-media --breakpoint-md (min-width: 52em); */
+/* @custom-media --breakpoint-lg (min-width: 64em); */
 
 :root {
   --font-family: 'aktiv-grotesk', Helvetica, sans-serif;
