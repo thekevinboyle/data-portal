@@ -578,6 +578,9 @@ $(function()
   return Rellax;
 }));
 
-$('.expandable').on('mousedown', function(){
-  $(this).toggleClass('expanded')
-})
+var $trigger = $('.trigger');
+var $expandable = $('.expandable');
+
+$trigger.click(function() {
+  $expandable.toggleClass('expanded');
+});

@@ -14,9 +14,9 @@
 @import 'shared/_form';
 @import 'shared/_accordion';
 
-@custom-media --breakpoint-sm max-width:750px;
-@custom-media --breakpoint-md (min-width:750px) and (max-width:970px);
-@custom-media --breakpoint-lg (min-width:970px);
+/* @custom-media --breakpoint-sm max-width:750px; */
+/* @custom-media --breakpoint-md (min-width:750px) and (max-width:970px); */
+/* @custom-media --breakpoint-lg (min-width:970px); */
 
 html {
   box-sizing: border-box;
